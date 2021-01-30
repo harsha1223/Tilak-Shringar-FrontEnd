@@ -1,0 +1,703 @@
+#focus {
+  margin-left: 21.889vw;
+  margin-top: 4.647vw;
+  width: 26.984vw;
+  height: 5.587vw;
+  color: #4d4d4d;
+  font: normal normal normal 5.124vw/4.88vw Acme;
+  background-image: linear-gradient(#f5004e, #8e0072);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+.cardsl1 {
+  display: flex;
+  margin-left: 21.889vw;
+  margin-top: 2.647vw;
+  width: 72vw;
+  height: 33vw;
+}
+
+.cardNew {
+  width: 22.255vw;
+  height: 32.65vw;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  text-align: center;
+  cursor: pointer;
+}
+.figCaption {
+  padding: 2em;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.25em;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  width: 100%;
+  margin-top: 11.493vw;
+  height: 28%;
+}
+.cardNew h2 {
+  position: absolute;
+  right: 2.196vw;
+  font-weight: 300;
+  font-size: 1.7vw;
+  left: 2.196vw;
+  padding: 0.732vw 0;
+  top: 2.196vw;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(0, 1.464vw, 0);
+  transform: translate3d(0, 1.464vw, 0);
+  color: white;
+  text-align: center;
+  font-weight: bolder;
+  background-image: linear-gradient(#f5004e, #8e0072);
+}
+.cardNew:hover h2 {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  font-weight: bold;
+  text-align: center;
+  background-color: transparent;
+  font-size: 1.464vw;
+}
+.cardNew h2::after {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 0.293vw;
+  background: #fff;
+  content: "";
+  -webkit-transform: translate3d(0, 2.928vw, 0);
+  transform: translate3d(0, 2.928vw, 0);
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+}
+.cardNew:hover h2::after {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+.cardNew img {
+  position: relative;
+  display: block;
+  min-height: 100%;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(-2.928vw, 0, 0);
+  transform: translate3d(-2.928vw, 0, 0);
+  max-width: none;
+  width: -webkit-calc(100% + 3.66vw);
+  width: calc(100% + 3.66vw);
+  opacity: 1;
+}
+.cardNew img:hover {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+.cardNew:hover {
+  opacity: 0.8;
+}
+
+.card2 {
+  margin-left: 4.392vw;
+  width: 22.255vw;
+  height: 32.65vw;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  text-align: center;
+  cursor: pointer;
+}
+.card2 h2 {
+  position: absolute;
+  right: 2.196vw;
+  font-weight: 300;
+  font-size: 1.7vw;
+  left: 2.196vw;
+  padding: 0.732vw 0;
+  top: 2.196vw;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(0, 1.464vw, 0);
+  transform: translate3d(0, 1.464vw, 0);
+  color: white;
+  text-align: center;
+  font-weight: bolder;
+  background-image: linear-gradient(#f5004e, #8e0072);
+}
+.card2:hover h2 {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.464vw;
+}
+.card2 h2::after {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 0.293vw;
+  background: #fff;
+  content: "";
+  -webkit-transform: translate3d(0, 2.928vw, 0);
+  transform: translate3d(0, 2.928vw, 0);
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+}
+.card2:hover h2::after {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+.card2 img {
+  position: relative;
+  display: block;
+  min-height: 100%;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(-2.928vw, 0, 0);
+  transform: translate3d(-2.928vw, 0, 0);
+  max-width: none;
+  width: -webkit-calc(100% + 3.66vw);
+  width: calc(100% + 3.66vw);
+  opacity: 1;
+}
+.card2 img:hover {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+.card2:hover {
+  opacity: 0.8;
+}
+
+.card3 {
+  margin-left: 4.392vw;
+  width: 22.255vw;
+  height: 32.65vw;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  text-align: center;
+  cursor: pointer;
+}
+.card3 h2 {
+  position: absolute;
+  right: 2.196vw;
+  font-weight: 300;
+  font-size: 1.7vw;
+  left: 2.196vw;
+  padding: 0.732vw 0;
+  top: 2.196vw;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  color: white;
+  text-align: center;
+  font-weight: bolder;
+  background-image: linear-gradient(#f5004e, #8e0072);
+  -webkit-transform: translate3d(0, 1.464vw, 0);
+  transform: translate3d(0, 1.464vw, 0);
+}
+.card3:hover h2 {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.464vw;
+}
+.card3 h2::after {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 0.293vw;
+  background: #fff;
+  content: "";
+  -webkit-transform: translate3d(0, 2.928vw, 0);
+  transform: translate3d(0, 2.928vw, 0);
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+}
+.card3:hover h2::after {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+.card3 img {
+  position: relative;
+  display: block;
+  min-height: 100%;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(-2.928vw, 0, 0);
+  transform: translate3d(-2.928vw, 0, 0);
+  max-width: none;
+  width: -webkit-calc(100% + 3.66vw);
+  width: calc(100% + 3.66vw);
+  opacity: 1;
+}
+.card3 img:hover {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+.card3:hover {
+  opacity: 0.8;
+}
+
+.work {
+  margin-left: 21.669vw;
+  margin-top: 7.394vw;
+  width: 22.548vw;
+  height: 5.587vw;
+  color: #4d4d4d;
+  font: normal normal normal 5.124vw/4.88vw Acme;
+  background-image: linear-gradient(#f5004e, #8e0072);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 17.936vw 18.96vw 38.214vw 19.107vw;
+  margin-top: -2.536vw;
+  margin-left: 3.075vw;
+  height: 37.116vw;
+  width: 94.217vw;
+}
+.gridImageBox1 {
+  width: 17.936vw;
+  height: 37.116vw;
+}
+.outerBoxGcard1 {
+  width: 17.936vw;
+  height: 17.789vw;
+  overflow: hidden;
+}
+.slider1 {
+  position: relative;
+  height: 17.789vw;
+  width: 53.807vw;
+  animation-name: slider;
+  animation-duration: 27s;
+}
+.slider1 ::after {
+  animation-delay: 840s;
+}
+.slider1 img {
+  max-height: 100%;
+  max-width: 100%;
+}
+@keyframes slider {
+  0% {
+    left: 0;
+  }
+  30% {
+    left: 0;
+  }
+  33% {
+    left: -17.936vw;
+  }
+  63% {
+    left: -17.936vw;
+  }
+  66% {
+    left: -35.871vw;
+  }
+  96% {
+    left: -35.871vw;
+  }
+  100% {
+    left: -35.871vw;
+  }
+}
+.outerBoxgcard2 {
+  margin-top: 1.537vw;
+  width: 17.936vw;
+  height: 17.789vw;
+  overflow: hidden;
+}
+.slider2 {
+  position: relative;
+  height: 17.789vw;
+  width: 53.807vw;
+  animation-name: slider;
+  animation-duration: 27s;
+  animation-iteration-count: 1;
+  animation-delay: 20s;
+}
+.slider2 img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.outerBoxgcard3 {
+  margin-left: 1.025vw;
+  width: 17.936vw;
+  height: 37.116vw;
+  overflow: hidden;
+}
+.slider3 {
+  position: relative;
+  height: 37.116vw;
+  width: 53.807vw;
+  animation-name: slider;
+  animation-duration: 27s;
+  animation-iteration-count: 1;
+  animation-delay: 40s;
+}
+.slider3 img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.gridImageBox3 {
+  width: 37.116vw;
+  height: 37.116vw;
+  margin-left: 1.098vw;
+  display: grid;
+  grid-template-rows: 17.936vw 19.18vw;
+}
+.outerBoxgcard4 {
+  width: 37.116vw;
+  height: 17.936vw;
+  overflow: hidden;
+}
+.slider4 {
+  position: relative;
+  width: 111.347vw;
+  height: 100%;
+  animation-name: sliderOne;
+  animation-duration: 27s;
+  animation-iteration-count: 1;
+  animation-delay: 30s;
+}
+
+.slider4 img {
+  float: left;
+  max-width: 100%;
+  max-height: 100%;
+}
+@keyframes sliderOne {
+  0% {
+    left: 0;
+  }
+  30% {
+    left: 0;
+  }
+  33% {
+    left: -37.116vw;
+  }
+  63% {
+    left: -37.116vw;
+  }
+  66% {
+    left: -74.231vw;
+  }
+  96% {
+    left: -74.231vw;
+  }
+  100% {
+    left: -74.231vw;
+  }
+}
+.box3Inside {
+  height: 17.789vw;
+  width: 37.116vw;
+  display: flex;
+  margin-top: 1.391vw;
+}
+.outerBoxgcard5 {
+  width: 17.936vw;
+  overflow: hidden;
+  height: 17.789vw;
+}
+.slider5 {
+  position: relative;
+  height: 17.789vw;
+  width: 53.807vw;
+  animation-name: slider;
+  animation-duration: 27s;
+  animation-iteration-count: 1;
+  animation-delay: 60s;
+}
+.slider5 img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.outerBoxgcard6 {
+  width: 17.936vw;
+  margin-left: 1.245vw;
+  height: 17.789vw;
+  overflow: hidden;
+}
+.slider6 {
+  position: relative;
+  height: 17.789vw;
+  width: 53.807vw;
+  animation-name: slider;
+  animation-duration: 27s;
+  animation-iteration-count: 1;
+  animation-delay: 10s;
+}
+.slider6 img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.outerBoxgcard7 {
+  margin-left: 1.171vw;
+  width: 17.936vw;
+  height: 37.116vw;
+  overflow: hidden;
+}
+.slider7 {
+  position: relative;
+  height: 37.116vw;
+  width: 53.807vw;
+  animation-name: slider;
+  animation-duration: 27s;
+  animation-iteration-count: 1;
+  animation-delay: 50s;
+}
+.slider7 img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.cards {
+  display: flex;
+  margin-top: 7.321vw;
+  margin-left: 3.807vw;
+  height: 21.23vw;
+  width: 92.387vw;
+}
+.rcard1 {
+  display: flex;
+  margin-left: 0vw;
+  height: 21.23vw;
+  width: 21.157vw;
+  border: 0.146vw solid #cdcdcd;
+}
+.rcard1 span {
+  position: relative;
+  color: #4d4d4d;
+  margin-top: 8.858vw;
+  margin-left: 7.247vw;
+  font: normal normal normal 2.489vw/3.734vw Poppins;
+}
+.rcard1 span::before {
+  content: "";
+  width: 100%;
+  height: 0.146vw;
+  position: absolute;
+  background-color: #4d4d4d;
+  bottom: 8.419vw;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.75s ease-out;
+}
+.rcard1 span:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.rcard2 {
+  display: flex;
+  margin-left: 2.562vw;
+  height: 21.23vw;
+  width: 21.157vw;
+  border: 0.146vw solid #cdcdcd;
+}
+.rcard2 span {
+  color: #4d4d4d;
+  position: relative;
+  margin-top: 8.858vw;
+  margin-left: 6.442vw;
+  font: normal normal normal 2.489vw/3.734vw Poppins;
+}
+.rcard2 span::before {
+  content: "";
+  width: 100%;
+  height: 0.146vw;
+  position: absolute;
+  background-color: #4d4d4d;
+  bottom: 8.419vw;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.75s ease-out;
+}
+.rcard2 span:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.rcard3 {
+  margin-left: 2.562vw;
+  display: flex;
+  height: 21.23vw;
+  width: 21.157vw;
+  border: 0.146vw solid #cdcdcd;
+}
+.rcard3 span {
+  color: #4d4d4d;
+  margin-top: 8.858vw;
+  position: relative;
+  margin-left: 3.014vw;
+  font: normal normal normal 2.489vw/3.734vw Poppins;
+}
+.rcard3 span::before {
+  content: "";
+  width: 100%;
+  height: 0.146vw;
+  position: absolute;
+  background-color: #4d4d4d;
+  bottom: 8.419vw;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.75s ease-out;
+}
+.rcard3 span:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.rcard4 {
+  display: flex;
+  margin-left: 2.562vw;
+  height: 21.23vw;
+  width: 21.157vw;
+  border: 0.146vw solid #cdcdcd;
+}
+.rcard4 span {
+  color: #4d4d4d;
+  margin-top: 8.858vw;
+  margin-left: 6.515vw;
+  position: relative;
+  font: normal normal normal 2.489vw/3.734vw Poppins;
+}
+.rcard4 span::before {
+  content: "";
+  width: 100%;
+  height: 0.146vw;
+  position: absolute;
+  background-color: #4d4d4d;
+  bottom: 8.419vw;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.75s ease-out;
+}
+.rcard4 span:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+@media (max-width: 700px) {
+  #focus {
+    margin-left: 8vw;
+    margin-top: 2.5vw;
+    font: normal normal normal 3.673vw/3.88vw Acme;
+    width: 20vw;
+    height: 4vw;
+  }
+  .cardsl1 {
+    margin-left: 5vw;
+    display: flex;
+    width: 89vw;
+    height: 37vw;
+  }
+
+  .cardNew {
+    width: 26.255vw;
+    height: 35.65vw;
+  }
+
+  .card2 {
+    width: 26.255vw;
+    height: 35.65vw;
+  }
+
+  .card3 {
+    width: 26.255vw;
+    height: 35.65vw;
+  }
+  .work {
+    margin-left: 6.669vw;
+    margin-top: 7.394vw;
+    width: 22.548vw;
+    height: 5.587vw;
+    font:normal normal normal 3.673vw/3.88vw Acme;
+  }
+  .grid{
+    margin-left: 1.7vw;
+  }
+  .cards {
+    display: flex;
+    margin-top: 7.321vw;
+    margin-left: 3.807vw;
+    height: 21.23vw;
+    width: 92.387vw;
+  }
+  .rcard1 {
+    display: flex;
+    margin-left: 0vw;
+    height: 21.23vw;
+    width: 21.157vw;
+    border: 0.146vw solid #cdcdcd;
+  }
+  .rcard1 span {
+    color: #4d4d4d;
+    margin-top: 8.858vw;
+    margin-left: 7.247vw;
+    font: normal normal normal 2.489vw/3.734vw Poppins;
+  }
+  .rcard2 {
+    display: flex;
+    margin-left: 2.562vw;
+    height: 21.23vw;
+    width: 21.157vw;
+    border: 0.146vw solid #cdcdcd;
+  }
+  .rcard2 span {
+    color: #4d4d4d;
+    margin-top: 8.858vw;
+    margin-left: 6.442vw;
+    font: normal normal normal 2.489vw/3.734vw Poppins;
+  }
+  .rcard3 {
+    margin-left: 2.562vw;
+    display: flex;
+    height: 21.23vw;
+    width: 21.157vw;
+    border: 0.146vw solid #cdcdcd;
+  }
+  .rcard3 span {
+    color: #4d4d4d;
+    margin-top: 8.858vw;
+    margin-left: 3.014vw;
+    font: normal normal normal 2.489vw/3.734vw Poppins;
+  }
+  .rcard4 {
+    display: flex;
+    margin-left: 2.562vw;
+    height: 21.23vw;
+    width: 21.157vw;
+    border: 0.146vw solid #cdcdcd;
+  }
+  .rcard4 span {
+    color: #4d4d4d;
+    margin-top: 8.858vw;
+    margin-left: 6.515vw;
+    font: normal normal normal 2.489vw/3.734vw Poppins;
+  }
+}

@@ -1,0 +1,23 @@
+#ResellerNotificationLine2 {
+  width: 236px;
+  border: 2px solid #cdcdcd;
+  margin-right: 0;
+  margin-left: 0px;
+  margin-top: 0;
+}
+.ResellerViewProduct {
+  width: 102px;
+  height: 21px;
+  text-decoration: underline;
+  font: normal normal normal 15px/23px Poppins;
+  color: #8d8d8d;
+  margin-left: 37px;
+  cursor: pointer;
+}
+.productDetailsReseller {
+  width: 1054px;
+  height: 21px;
+  margin-top: 16px;
+  margin-left: 33px;
+  display: flex;
+}

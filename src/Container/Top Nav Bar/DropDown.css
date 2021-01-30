@@ -1,0 +1,17 @@
+#dropdown{
+  margin-top:0.878vw;
+  border:none;
+  width:12vw;
+  margin-top: 0.52vw;
+  font: normal normal normal 0.878vw/1.684vw Poppins;
+}
+
+@media (max-width:700px){
+  #dropdown{
+    font: normal normal normal 1.714vw/2.571vw Poppins;
+    margin-top: 1.15vw;
+    width:27vw;
+
+
+  }
+}

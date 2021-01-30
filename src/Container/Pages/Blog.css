@@ -1,0 +1,453 @@
+.blogHeadline {
+  margin-top: 10.5vw;
+  margin-left: 21.889vw;
+  font: normal normal normal 5.124vw/4.88vw Acme;
+  background-image: linear-gradient(#f5004e, #8e0072);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  width: 23.060vw;
+  height: 8.053vw;
+}
+.containerr {
+  display: grid;
+  margin-top: 1.464vw;
+  margin-left: 21.083vw;
+}
+
+.containerr1 {
+  display: flex;
+  margin-top: 1.464vw;
+  margin-left: 0vw;
+}
+
+.containerr2 {
+  display: flex;
+  margin-top: 1.464vw;
+  margin-left: 0vw;
+}
+
+.carrd {
+  margin-left: 1.464vw;
+  position: relative;
+  width: 22.255vw;
+  height: 32.65vw;
+  background: white;
+  box-shadow: -0.732vw -0.732vw 1.098vw rgba(255, 255, 255, 0.5),
+    0.732vw 0.732vw 1.098vw rgba(0, 0, 0, 0.25);
+  border-radius: 0.732vw;
+  transition: 0.5s ease-out;
+}
+
+.carrd .imagee {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.carrd .imagee img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 80%;
+  display: block;
+  /* border-top-left-radius: 1.318vw;
+  border-top-right-radius: 1.318vw; */
+  transition: 0.5s;
+}
+
+.carrd .contentt {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 6.589vw;
+  box-sizing: border-box;
+  transition: 0.5s cubic-bezier(0.22, 0.68, 0, 1, 1.71);
+  overflow: hidden;
+  padding: 0.878vw;
+  background: white;
+  /* border-bottom-left-radius: 1.318vw;
+  border-bottom-right-radius: 1.318vw; */
+}
+
+.contentt h1 {
+  font: normal normal bold 1.098vw/1.391vw poppins;
+  text-align: center;
+}
+
+.carrd:hover .contentt {
+  width: 100%;
+  height: 100%;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+  transition: 0.5s;
+}
+
+.contentt p {
+  text-align: left;
+  color: #adadad;
+  font: normal normal normal 0.952vw/1.171vw poppins;
+  padding: 0.732vw 1.464vw;
+}
+
+#button {
+  font: normal normal bold 0.952vw/1.171vw poppins;
+  text-decoration: underline;
+  outline-color: white;
+  border: none;
+  background: none;
+  border-radius: 1.318vw;
+  padding: 0.512vw;
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.loadMoreButton {
+  width: 12.299vw;
+  height: 3.514vw;
+  margin-top: 3.001vw;
+  margin-left: 31.552vw;
+  border: 0.073vw solid #cdcdcd;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: white;
+  cursor: pointer;
+  background-image: linear-gradient(#f5004e, #8e0072);
+}
+.loadMoreButton:focus{
+  outline: none;
+}
+.popUp {
+  position: absolute;
+  -webkit-position: sticky;
+  width: 100vw;
+  height: 215.959vw;
+  background-color: rgba(0, 0, 0, 0.9);
+  top: 0;
+  z-index: 1045;
+  display: none;    width: 100vw;
+  height: 100vw;
+}
+
+.popUpcontent {
+  width: 81.649vw;
+    height: 103.469vw;
+    margin-top: 3.294vw;
+    margin-left: 10.176vw;
+    background-color: white;
+    z-index: 1046;
+    display: grid;
+    grid-template-rows: 10.908vw 24.451vw 2.928vw 29.649vw 15.666vw 3.221vw 16.984vw;
+    overflow: auto;
+}
+.popUpcontent::-webkit-scrollbar {
+  width: 0.732vw;
+}
+.popUpcontent::-webkit-scrollbar-track {
+  border-radius: 0.732vw;
+  border: 0.366vw solid #e9e9e9;
+  box-shadow: inset 0 0 0.183vw 0.146vw rgba(0, 0, 0, 0.5);
+}
+.popUpcontent::-webkit-scrollbar-thumb {
+  background: #cbcbcb;
+}
+
+.headerPopup {
+  /* position: sticky;
+      -webkit-position:sticky ;
+      top: 0; */
+  width: 79.649vw;
+  height: 10.908vw;
+  display: grid;
+  grid-template-rows: 3.734vw 0.366vw 3.953vw 1.757vw;
+}
+.headerTop {
+  height: 3.734vw;
+  width: 74.451vw;
+  display: grid;
+  grid-template-rows: 1.977vw 1.757vw;
+}
+.close {
+  width: 2.196vw;
+  font-size: 2.855vw;
+  text-align: right;
+  margin-left: 76.94vw;
+  transform: rotate(45deg);
+  cursor: pointer;
+}
+.previousNext {
+  display: flex;
+  margin-left: 2.635vw;
+}
+
+.previousButton {
+  width: 5.344vw;
+  height: 1.391vw;
+  font: normal normal normal 1.098vw/1.391vw Montserrat;
+  color: #6d6d6d;
+  display: flex;
+}
+
+#backArrow {
+  margin-top: 0.22vw;
+  color: #6d6d6d;
+}
+
+.blogLogo {
+  width: 4.466vw;
+  height: 1.757vw;
+  font: normal normal bold 1.464vw/1.757vw Montserrat;
+  letter-spacing: 0;
+  color: #1e33bc;
+  margin-left: 29.649vw;
+}
+
+.nextButton {
+  width: 3.221vw;
+  height: 1.391vw;
+  font: normal normal normal 1.098vw/1.391vw Montserrat;
+  color: #6d6d6d;
+  display: flex;
+  margin-left: 31.772vw;
+}
+
+#blogline {
+  width: 10.981vw;
+  margin-left: 34.334vw;
+  margin-top: 0.366vw;
+  border: 0.051vw solid rgb(151, 151, 151);
+}
+
+.articleName {
+  font: normal normal normal 2.196vw/2.709vw Montserrat;
+  color: #2d2d2d;
+  width: 46.34vw;
+  height: 2.709vw;
+  margin-left: 5.93vw;
+  margin-top: 1.245vw;
+}
+
+.blogDress {
+  width: 68.155vw;
+  height: 1.757vw;
+  margin-left: 5.93vw;
+  display: flex;
+}
+
+#dressName {
+  width: 5.71vw;
+  height: 1.757vw;
+  font: normal normal normal 1.464vw/1.757vw Montserrat;
+  color: #cdcdcd;
+}
+
+#dressDate {
+  width: 12.811vw;
+  height: 1.757vw;
+  font: normal normal normal 1.464vw/1.757vw Montserrat;
+  color: #cdcdcd;
+  margin-left: 49.634vw;
+}
+
+.blogImage1 {
+  width: 68.521vw;
+  height: 22.767vw;
+  margin-top: 1.684vw;
+  margin-left: 5.93vw;
+}
+
+.blogImage1 img {
+  width: 68.521vw;
+  height: 22.767vw;
+}
+
+.mainHeading1 {
+  width: 25.695vw;
+  height: 1.757vw;
+  margin-top: 1.171vw;
+  margin-left: 5.93vw;
+  font: normal normal bold 1.464vw/1.757vw Montserrat;
+  color: #4d4d4d;
+}
+
+.paraOne {
+  margin-top: 1.171vw;
+  margin-left: 5.93vw;
+  width: 67.789vw;
+  height: 28.477vw;
+  font: normal normal normal 1.098vw/1.391vw Montserrat;
+  color: #4d4d4d;
+}
+.blogImage2 {
+  width: 68.521vw;
+  height: 14.495vw;
+  margin-top: 1.171vw;
+  margin-left: 5.93vw;
+}
+
+.blogImage2 img {
+  width: 68.521vw;
+  height: 14.495vw;
+}
+.mainHeading2 {
+  width: 25.695vw;
+  height: 1.757vw;
+  margin-top: 1.464vw;
+  margin-left: 5.93vw;
+  font: normal normal bold 1.464vw/1.757vw Montserrat;
+  color: #4d4d4d;
+}
+
+.paraTwo {
+  margin-top: 1.171vw;
+  margin-left: 5.93vw;
+  width: 67.789vw;
+  height: 15.813vw;
+  font: normal normal normal 1.098vw/1.391vw Montserrat;
+  color: #4d4d4d;
+}
+
+.imageBox {
+  display: flex;
+  height: 14.495vw;
+  width: 67.35vw;
+  margin-top: 1.171vw;
+  margin-left: 5.93vw;
+}
+
+@media (max-width: 700px) {
+  .blogHeadline {
+    margin-top: 2.143vw;
+    margin-left: 6.286vw;
+    width: 17.571vw;
+    height: 7vw;
+    font: normal normal normal 3vw/7.571vw Poppins;
+  }
+  .containerr1 {
+    width: 89.714vw;
+    height: 62.857vw;
+    margin-left: -14.571vw;
+  }
+  .carrd {
+    width: 30.255vw;
+    height: 52.65vw;
+    margin-left: 1.143vw;
+    margin-top: 0.857vw;
+  }
+  .carrd .imagee img {
+    height: 67%;
+  }
+  .carrd .contentt {
+    height: 15.589vw;
+  }
+  .contentt h1 {
+    font: normal normal bold 2vw/1.857vw Montserrat;
+    margin-bottom: 0.286vw;
+  }
+  .contentt p {
+    font: normal normal normal 1.714vw/1.714vw Montserrat;
+  }
+  .containerr2 {
+    width: 89.714vw;
+    height: 62.857vw;
+    margin-left: -14.571vw;
+    margin-top: -2.416vw;
+  }
+  .popUpcontent {
+    display: grid;
+    grid-template-rows: 18.908vw 28.451vw 4.928vw 34.649vw 22.666vw 4.221vw 19.984vw;
+  }
+  .headerPopup {
+    width: 79.857vw;
+    height: 19.286vw;
+    grid-template-rows: 4.734vw 0.366vw 7.953vw 5.757vw;
+  }
+  .headerTop {
+    display: grid;
+    grid-template-rows: 1.977vw 3.757vw;
+  }
+  .previousButton {
+    width: 10.429vw;
+    height: 2.714vw;
+    font: normal normal normal 2.098vw/1.391vw Montserrat;
+    color: #6d6d6d;
+    display: flex;
+  }
+  #backArrow {
+    margin-top: 0.5vw;
+    color: #6d6d6d;
+  }
+  .blogLogo {
+    font: normal normal bold 2.464vw/1.757vw Montserrat;
+    margin-left: 20.649vw;
+  }
+  #blogline {
+    margin-left: 31.5vw;
+  }
+  .nextButton {
+    font: normal normal normal 2.098vw/1.391vw Montserrat;
+    margin-left: 29.772vw;
+    width: 8.221vw;
+  }
+  .articleName {
+    font: normal normal normal 3.196vw/2.709vw Montserrat;
+    color: #2d2d2d;
+    width: 56.34vw;
+    height: 2.709vw;
+    margin-left: 5.93vw;
+    margin-top: 4.245vw;
+  }
+  .articleName {
+    font: normal normal normal 3.196vw/2.709vw Montserrat;
+    width: 56.34vw;
+    margin-top: 4.245vw;
+  }
+  .blogDress {
+    height: 5.757vw;
+    display: grid;
+    grid-template-rows: 1.857vw 3.714vw;
+  }
+  #dressName {
+    width: 9.71vw;
+    font: normal normal normal 2.464vw/1.757vw Montserrat;
+  }
+  #dressDate {
+    width: 17.811vw;
+    font: normal normal normal 2.464vw/1.757vw Montserrat;
+    margin-top: 1.429vw;
+    margin-left: 0;
+  }
+  .blogImage1 img {
+    height: 25.767vw;
+  }
+  .mainHeading1 {
+    width: 55.695vw;
+    height: 2.757vw;
+    margin-top: 5.171vw;
+    font: normal normal bold 2.6vw/2.757vw Montserrat;
+  }
+  .paraOne {
+    width: 67.789vw;
+    height: 31.477vw;
+    font: normal normal normal 1.25vw/1.391vw poppins;
+  }
+  .blogImage2 img {
+    height: 22.495vw;
+  }
+  .mainHeading2 {
+    width: 35.695vw;
+    margin-top: 9.464vw;
+    font: normal normal bold 2.464vw/1.757vw Montserrat;
+  }
+  .paraTwo {
+    font: normal normal normal 1.25vw/1.48vw poppins;
+  }
+  #button {
+    font: normal normal bold 1.952vw/1.171vw poppins;
+  }
+}

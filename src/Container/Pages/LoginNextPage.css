@@ -1,0 +1,128 @@
+.LoginNextBox {
+  width: 839px;
+  height: 319px;
+  margin-left: 299px;
+  margin-top: 32px;
+  border: 1px solid #dddddd;
+  display: grid;
+  grid-template-rows: 60px 178px 64px;
+}
+.helloEmail {
+  width: 325px;
+  height: 28px;
+  color: #3d3d3d;
+  font: normal normal normal 15px/30px Poppins;
+}
+.helloEmail span {
+  font: normal normal bold 20px/30px Poppins;
+}
+.addressConfirmBox {
+  width: 739px;
+  height: 159px;
+  margin-top: 19px;
+  margin-left: 75px;
+  display: flex;
+}
+.addressChange {
+  width: 334px;
+  height: 135px;
+  margin-left: 75px;
+  display: grid;
+  grid-template-rows: 17px;
+}
+.addressDeliverConfirm {
+  width: 129px;
+  height: 17px;
+  color: #ac06d4;
+  font: normal normal normal 12px/18px Poppins;
+}
+.containerRadio {
+  display: block;
+  position: relative;
+  margin-top: 9px;
+  cursor: pointer;
+  padding-left: 23px;
+  font: normal normal normal 12px/18px Poppins;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.containerRadio input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.checkmarkRadio {
+  position: absolute;
+  top: 4px;
+  left: 0;
+  height: 14px;
+  width: 14px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+.containerRadio:hover input ~ .checkmarkRadio {
+  background-color: #ccc;
+}
+.containerRadio input:checked ~ .checkmarkRadio {
+  background-color: #ac06d4;
+}
+.checkmarkRadio::after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.containerRadio input:checked ~ .checkmarkRadio::after {
+  display: block;
+}
+.containerRadio .checkmarkRadio::after {
+    left: 1.5px;
+    top: 1.9px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #ac06d4;
+}
+.phoneChange {
+  width: 279px;
+  height: 159px;
+  margin-left: 113px;
+  display: grid;
+  grid-template-rows: 17px 25px 25px 41px 25px 25px;
+}
+.noEmailfinal{
+    width: 249px;
+height: 17px;margin-left: 16px;font: normal normal normal 12px/18px Poppins;
+color: #3D3D3D;
+}
+.DeliverConfirm{
+    width: 129px;
+    height: 17px;
+    color: #ac06d4;
+    font: normal normal normal 12px/18px Poppins;margin-top:24px;
+}
+.changeDetail{
+    width: 48px;
+height: 17px;text-decoration: underline;
+font: normal normal normal 12px/18px Poppins;margin-top: 8px;margin-left: 96px;
+color: #7D7D7D;
+}
+.saveProceedBtn {
+  width: 131px;
+  height: 38px;
+  margin-top: 26px;
+  margin-left: 350px;
+  box-shadow: 0px 3px 6px #00000029;
+  font: normal normal normal 12px/18px Poppins;
+  color: #ffffff;
+  background-image: linear-gradient(#f5004e, #8e0072);
+  border: none;
+  cursor: pointer;
+}
+
+.saveProceedBtn:focus {
+  outline: none;
+}

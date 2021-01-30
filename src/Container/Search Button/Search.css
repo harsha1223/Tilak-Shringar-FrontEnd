@@ -1,0 +1,58 @@
+.searchButton {
+
+    margin-top: -76.501vw;
+    margin-left: 21.889vw;
+    width: 56.223vw;
+    height: 3.4vw;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 0.073vw solid #CDCDCD;
+    border-radius: 2.050vw;
+    opacity: 1;
+}
+
+.searchButton input {
+    outline-color: white;
+    border:none;
+    width: 51.171vw;
+    margin-left: 0.732vw;
+    height: 2.196vw;
+    margin-top: 0.439vw;
+margin-left: 0.952vw;
+text-align: left;
+font: normal normal normal 1.098vw/1.684vw Poppins;
+color: #4D4D4D;
+opacity: 1;
+}
+.searchButton input:focus{
+    outline-width:none;
+}
+#searchIcon{
+    margin-top:0.622vw;
+    font-size: 1.464vw;
+    margin-left: 1.098vw;
+    opacity:0.33;
+
+}
+@media (max-width:700px){
+    .searchButton {
+        width:90vw;
+        margin-top: 3vw;
+        margin-left: 5vw;
+        height: 5vw;
+        border-radius: 2.55vw;
+    }
+    .searchButton input {
+        
+        width: 80vw;
+        margin-left: 2.3vw;
+        height: 2.196vw;
+        font: normal normal normal 1.714vw/2.571vw Poppins;
+    }
+    #searchIcon{
+        margin-top:1vw;
+        font-size: 2.1vw;
+        margin-left: 1.098vw;
+        opacity:0.33;
+    
+    }
+}

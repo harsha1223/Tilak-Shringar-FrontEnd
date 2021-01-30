@@ -1,0 +1,420 @@
+.heading {
+  width: 25.769vw;
+  height: 6.442vw;
+  margin-top: 6.881vw;
+  margin-left: 10.176vw;
+  font: normal normal normal 5.124vw/4.88vw Acme;
+  background-image: linear-gradient(#f5004e, #8e0072);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.Aboutttt {
+  margin-left: 33.089vw;
+  margin-top: 2.928vw;
+}
+
+.adminBox {
+  width: 89.751vw;
+  height: 70.351vw;
+  border: 0.073vw solid #707070;
+  margin-left: 5.124vw;
+  margin-top: 1.171vw;
+  display: grid;
+  grid-template-rows: 4.392vw 1.757vw 5.637vw 5.271vw 47.95vw;
+}
+
+.adminNav {
+  width: 37.848vw;
+  height: 2.05vw;
+  margin-left: 5.051vw;
+  margin-top: 2.343vw;
+  display: flex;
+}
+
+.adminProducts {
+  width: 7.687vw;
+  height: 2.05vw;
+  font: normal normal normal 1.464vw/2.196vw Poppins;
+  color: #4d4d4d;
+  margin-top: 0;
+  margin-left: 0;
+}
+
+.adminBilling {
+  width: 5.051vw;
+  height: 2.05vw;
+  margin-top: 0;
+  margin-left: 9.004vw;
+  font: normal normal normal 1.464vw/2.196vw Poppins;
+  color: #8d8d8d;
+}
+
+.adminReseller {
+  width: 7.028vw;
+  height: 2.05vw;
+  margin-top: 0;
+  margin-left: 9.004vw;
+  font: normal normal normal 1.464vw/2.196vw Poppins;
+  color: #8d8d8d;
+}
+
+.productLine {
+  width: 80.966vw;
+  display: flex;
+  margin-left: 5.051vw;
+  margin-top: 1.757vw;
+  height: 0;
+}
+
+#adminLine2 {
+  width: 7.906vw;
+  border: 2px solid #4d4d4d;
+  margin-right: 0;
+  margin-left: 0;
+  margin-top: 0;
+}
+
+#adminLine {
+  margin-left: 0;
+  margin-top: 0;
+  width: 73.28vw;
+  border: 2px solid #cdcdcd;
+}
+
+.categoryProductBtn {
+  width: 79.795vw;
+  height: 2.855vw;
+  display: flex;
+  margin-top: 2.489vw;
+  margin-left: 6.369vw;
+}
+
+.categoryBtn {
+  width: 12.958vw;
+  height: 2.855vw;
+  background: linear-gradient(#f5004e, #8e0072);
+  color: white;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  text-decoration: none;
+  cursor: pointer;
+  box-shadow: 0 0.22vw 0.439vw #00000029;
+  border: white;
+}
+.categoryBtn:focus {
+  outline: none;
+}
+.productBtn {
+  margin-left: 2.343vw;
+  width: 11.493vw;
+  height: 2.855vw;
+  background: linear-gradient(#f5004e, #8e0072);
+  color: white;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  border-radius: 0;
+  text-decoration: none;
+  cursor: pointer;
+  border: white;
+  box-shadow: 0 0.22vw 0.439vw #00000029;
+}
+.productBtn:focus {
+  outline: none;
+}
+
+.productNumber {
+  width: 19.903vw;
+  height: 1.537vw;
+  margin-left: 33.821vw;
+  text-align: right;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #cdcdcd;
+}
+
+.SearchDrop {
+  width: 52.782vw;
+  height: 2.928vw;
+  margin-top: 2.343vw;
+  margin-left: 6.369vw;
+  border: 0.073vw solid coral;
+}
+
+.AdminProductDetails {
+  width: 79.868vw;
+  height: 45.608vw;
+  margin-top: 2.343vw;
+  margin-left: 6.369vw;
+  border: 0.073vw solid #707070;
+  display: grid;
+  grid-template-rows: 3.294vw 1.757vw 39.678vw;
+}
+
+.AdminProductHeading {
+  width: 62.079vw;
+  height: 1.537vw;
+  margin-top: 1.757vw;
+  margin-left: 1.757vw;
+  display: flex;
+}
+
+#adminCategories {
+  width: 6.076vw;
+  height: 1.537vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #4d4d4d;
+}
+
+#adminProductID {
+  width: 5.637vw;
+  height: 1.537vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #4d4d4d;
+  margin-left: 5.857vw;
+}
+
+#adminQuantity {
+  width: 4.685vw;
+  height: 1.537vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #4d4d4d;
+  margin-left: 4.978vw;
+}
+
+#adminName {
+  width: 3.294vw;
+  height: 1.537vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #4d4d4d;
+  margin-left: 12.738vw;
+}
+
+#adminStatus {
+  width: 3.441vw;
+  height: 1.537vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #4d4d4d;
+  margin-left: 15.227vw;
+}
+
+#AdminLine {
+  width: 79.575vw;
+  border: 0.073vw solid #707070;
+  margin-top: 1.757vw;
+  margin-left: 0;
+}
+.productDetailOuterBox {
+  width: 79.722vw;
+  height: 40.556vw;
+  display: grid;
+  grid-template-rows: repeat(500000, 2.709vw);
+  overflow: auto;
+}
+.productDetailOuterBox::-webkit-scrollbar {
+  width: 0.439vw;
+}
+.productDetailOuterBox::-webkit-scrollbar-track {
+  border-radius: 2.709vw;
+  border: 0.366vw solid #e9e9e9;
+  box-shadow: inset 0 0 0.183vw 0.146vw rgba(0, 0, 0, 0.5);
+}
+.productDetailOuterBox::-webkit-scrollbar-thumb {
+  background: #cbcbcb;
+}
+.productDetailsAdmin {
+  width: 72.987vw;
+  height: 1.537vw;
+  margin-top: 1.171vw;
+  margin-left: 2.416vw;
+  display: flex;
+}
+
+.productDresses {
+  width: 4.246vw;
+  height: 1.537vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #8d8d8d;
+}
+
+.productIdAdmin {
+  width: 3.807vw;
+  height: 1.537vw;
+  margin-left: 7.467vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #8d8d8d;
+}
+
+.quantityIncDec {
+  width: 6.881vw;
+  height: 1.537vw;
+  margin-left: 5.497vw;
+  display: flex;
+}
+
+#minusIcon {
+  width: 1.245vw;
+  height: 1.245vw;
+  color: #adadad;
+  cursor: pointer;
+  margin-top: 0.22vw;
+}
+
+.quantityNo {
+  width: 1.025vw;
+  height: 1.537vw;
+  margin-left: 1.684vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #4d4d4d;
+}
+
+#plusIcon {
+  width: 1.245vw;
+  height: 1.245vw;
+  color: #adadad;
+  cursor: pointer;
+  margin-left: 1.684vw;
+  margin-top: 0.22vw;
+}
+
+.dressName {
+  width: 22.84vw;
+  height: 1.537vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #8d8d8d;
+  margin-left: 4.54vw;
+}
+
+.productStatus {
+  display: flex;
+  width: 9.37vw;
+  height: 1.537vw;
+  margin-left: 1.391vw;
+}
+
+#closeSquare {
+  width: 1.245vw;
+  height: 1.245vw;
+  color: #cdcdcd;
+  cursor: pointer;
+  margin-top: 0.22vw;
+}
+
+#checkSquare {
+  width: 1.245vw;
+  height: 1.245vw;
+  color: #13c200;
+  margin-left: 0.512vw;
+  cursor: pointer;
+  margin-top: 0.22vw;
+}
+
+.StatusAva {
+  width: 5.051vw;
+  height: 1.537vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #8d8d8d;
+  margin-left: 1.537vw;
+}
+
+#deleteButton {
+  width: 1.245vw;
+  color: #ff3b3b;
+  height: 1.318vw;
+  margin-left: 6.662vw;
+  cursor: pointer;
+  margin-top: 0.22vw;
+}
+
+.endLine {
+  margin-top: 1.94vw;
+  margin-left: 37.592vw;
+  width: 24.817vw;
+  border: 0.073vw solid #cdcdcd;
+}
+
+.AdminPopUp {
+  position: absolute;
+  -webkit-position: sticky;
+  width: 100vw;
+  height: 142vw;
+  background-color: rgba(0, 0, 0, 0.9);
+  top: 0;
+  z-index: 1046;
+  display: none;
+}
+
+.AdminBlogPopUp {
+  position: absolute;
+  -webkit-position: sticky;
+  width: 100vw;
+  height: 142vw;
+  background-color: rgba(0, 0, 0, 0.9);
+  top: 0;
+  z-index: 1046;
+  display: none;
+}
+
+.SmallUp {
+  width: 79.649vw;
+  height: 30%;
+  margin-top: 7.321vw;
+  margin-left: 10.176vw;
+  background-color: white;
+  z-index: 1046;
+  display: grid;
+  grid-template-rows: 4.1vw 22.035vw;
+  border-radius: 1.464vw;
+}
+
+.SmallBlogUp {
+  width: 79.649vw;
+  height: 45%;
+  margin-top: 7.321vw;
+  margin-left: 10.176vw;
+  background-color: white;
+  z-index: 1046;
+  display: grid;
+  grid-template-rows: 4.1vw 22.035vw;
+  border-radius: 1.464vw;
+}
+
+.headingPopUp {
+  width: 43.009vw;
+  height: 1.757vw;
+  margin-top: 1.171vw;
+  margin-left: 1.757vw;
+  display: flex;
+}
+
+.adminClose {
+  width: 1.025vw;
+  height: 1.757vw;
+  font-size: 2.855vw;
+  transform: rotate(45deg);
+  cursor: pointer;
+  color: #4d4d4d;
+}
+
+.adminPopHeading {
+  width: 9.663vw;
+  height: 1.757vw;
+  margin-left: 32.284vw;
+  font: normal normal bold 1.464vw/1.757vw Montserrat;
+  color: #2d2d2d;
+}
+
+.detailFill {
+  width: 72.182vw;
+  height: 20.034vw;
+  /* border: 0.073vw solid black; */
+  margin-top: 3.001vw;
+  margin-left: 2.343vw;
+}
+
+.detailBlogFill {
+  width: 72.182vw;
+  height: 24.034vw;
+  /* border: 0.073vw solid black; */
+  margin-top: 3.001vw;
+  margin-left: 2.343vw;
+}

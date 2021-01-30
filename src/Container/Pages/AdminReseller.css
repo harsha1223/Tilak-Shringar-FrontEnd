@@ -1,0 +1,154 @@
+#AdminResellerLine2 {
+  width: 195px;
+  border: 2px solid #cdcdcd;
+  margin-right: 0;
+  margin-left: 0px;
+  margin-top: 0;
+}
+#AdminResellerLine3 {
+  width: 161px;
+  margin-left: 0px;
+  margin-top: 0;
+  margin-right: 0;
+  border: 2px solid #4d4d4d;
+}
+#AdminResellerLine4 {
+  width: 574px;
+  border: 2px solid #cdcdcd;
+  margin-right: 0;
+  margin-left: 0px;
+  margin-top: 0;
+}
+.ResellerNumber {
+  width: 446px;
+  height: 21px;
+  margin-left: 462px;
+  text-align: right;
+  font: normal normal normal 15px/23px Poppins;
+  color: #cdcdcd;
+  margin-top: 12px;
+}
+.adminResellerNav {
+  margin-top: 24px;
+  margin-left: 19px;
+  display: flex;
+  width: 947px;
+  height: 21px;
+}
+.ResellerId {
+  font: normal normal normal 15px/23px Poppins;
+  color: #4d4d4d;
+  width: 77px;
+  height: 21px;
+  margin-left: 30px;
+}
+.ResellerName {
+  font: normal normal normal 15px/23px Poppins;
+  color: #4d4d4d;
+  width: 108px;
+  height: 21px;
+  margin-left: 32px;
+}
+.ResellerPhoneNumber {
+  font: normal normal normal 15px/23px Poppins;
+  color: #4d4d4d;
+  width: 112px;
+  height: 21px;
+  margin-left: 26px;
+}
+.ResellerEmail {
+  font: normal normal normal 15px/23px Poppins;
+  color: #4d4d4d;
+  width: 41px;
+  height: 21px;
+  margin-left: 56px;
+}
+.ResellerDiscount {
+  font: normal normal normal 15px/23px Poppins;
+  color: #4d4d4d;
+  width: 81px;
+  height: 21px;
+  margin-left: 115px;
+}
+.ResellerDuePay {
+  font: normal normal normal 15px/23px Poppins;
+  color: #4d4d4d;
+  width: 61px;
+  margin-left: 32px;
+  height: 21px;
+}
+.ResellerProductsSold {
+  font: normal normal normal 15px/23px Poppins;
+  color: #4d4d4d;
+  width: 103px;
+  margin-left: 28px;
+  height: 21px;
+}
+.ResellerInnerBox {
+  display: flex;
+  width: 1038px;
+  height: 21px;
+  margin-left: 34px;
+  margin-top: 16px;
+}
+.IDdetail {
+  font: normal normal normal 15px/23px Poppins;
+  color: #4d4d4d;
+  margin-left: 54px;
+  width: 61px;
+  height: 21px;
+  text-decoration: underline;
+}
+.NameResellerDetail {
+  font: normal normal normal 15px/23px Poppins;
+  color: #8d8d8d;
+  width: 107px;
+  height: 21px;
+  margin-left: 44px;
+  text-align: center;
+}
+.PhoneNoResellerDetail {
+  font: normal normal normal 15px/23px Poppins;
+  color: #13c200;
+  margin-left: 30px;
+  width: 87px;
+  height: 21px;
+}
+.emailResellerDetail {
+  font: normal normal normal 15px/23px Poppins;
+  width: 164px;
+  height: 21px;
+  color: #8d8d8d;
+  text-align: center;
+  margin-left: 42px;
+}
+.dicountResellerDetail {
+  font: normal normal normal 15px/23px Poppins;
+  color: #8d8d8d;
+  width: 29px;
+  height: 21px;
+  margin-left: 57px;
+}
+.PayResellerDetail {
+  font: normal normal normal 15px/23px Poppins;
+  color: #8d8d8d;
+  width: 60px;
+  height: 21px;
+  margin-left: 55px;
+}
+.soldResellerDetail {
+  font: normal normal normal 15px/23px Poppins;
+  width: 40px;
+  height: 21px;
+  color: #4d4d4d;
+  margin-left: 54px;
+  text-align: center;
+}
+.detailView {
+  font: normal normal normal 15px/23px Poppins;
+  width: 82px;
+  height: 21px;
+  color: #ff3b3b;
+  text-decoration: underline;
+  margin-left: 60px;
+}

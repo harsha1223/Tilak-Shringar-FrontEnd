@@ -1,0 +1,228 @@
+.orderSummaryPageLine {
+  width: 19.839vw;
+  margin-left: 0.805vw;
+  border: 2px solid #cdcdcd;
+  margin-top: 1.042vw;
+  margin-right: 0;
+}
+.orderSummaryfinalPayment {
+  width: 6.515vw;
+  height: 2.05vw;
+  font: normal normal normal 1.464vw/2.196vw Poppins;
+  color: #cdcdcd;
+  margin-left: 0.805vw;
+}
+.orderSummaryHeadline {
+  width: 36.676vw;
+  height: 7.540vw;
+  margin-left: 10.176vw;
+  margin-top: 2.855vw;
+  font: normal normal normal 5.124vw/4.88vw Acme;
+  background-image: linear-gradient(#f5004e, #8e0072);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+.selectDeliveryBox {
+  width: 80.307vw;
+  height: 22.881vw;
+  margin-top: 1.171vw;
+  margin-left: 10.249vw;
+  display: flex;
+}
+.deliveryAddressBox {
+  height: 21.690vw;
+  width: 56.735vw;
+  margin-top: 1.191vw;
+  display: grid;
+  grid-template-rows: 1.537vw 15.134vw 5.019vw;
+}
+.priceOrderSummaryBox {
+  width: 20.864vw;
+  height: 20.937vw;
+  margin-left: 2.635vw;
+  display: grid;
+  grid-template-rows: 2.782vw 2.762vw 2.123vw 5.93vw;
+}
+.selectDeliveryHeading {
+  width: 12.884vw;
+  height: 1.537vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  letter-spacing: 0;
+  color: #4d4d4d;
+}
+.userDetailAddressBox {
+  width: 56.735vw;
+  height: 14.129vw;
+  margin-top: 1.005vw;
+  display: grid;
+  grid-template-rows: 2.928vw 5.344vw 2.416vw 2.343vw;
+  border: 1px solid #cdcdcd;
+}
+.customerNameBox {
+  width: 54.486vw;
+  height: 1.537vw;
+  display: flex;
+  margin-left: 1.611vw;
+  margin-top: 1.391vw;
+}
+.customerNameOrderSummary {
+  width: 3.587vw;
+  height: 1.537vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #8d8d8d;
+}
+.customerFullName {
+  width: 38.141vw;
+  height: 1.537vw;
+  font: normal normal bold 1.098vw/1.684vw Poppins;
+  color: #2d2d2d;
+  margin-left: 10.469vw;
+}
+#addressTickIcon {
+  width: 2.123vw;
+  height: 1.537vw;
+  margin-left: 0.149vw;
+  color: #4dd101;
+}
+.customerAddressBox {
+  height: 4.905vw;
+  width: 52.196vw;
+  border: 1px solid darkred;
+  margin-left: 1.611vw;
+  margin-top: 0.805vw;
+}
+.customerLandmarkBox {
+  height: 1.537vw;
+  width: 52.196vw;
+  margin-top: 0.878vw;
+  margin-left: 1.611vw;
+  display: flex;
+}
+.customerLandmarkDetail {
+  width: 5.710vw;
+  height: 1.537vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #8d8d8d;
+}
+.customerLocationDetail {
+  width: 38.141vw;
+  height: 1.537vw;
+  margin-left: 8.272vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #2d2d2d;
+}
+.phoneNoCustomerBox {
+  height: 1.537vw;
+  width: 52.196vw;
+  margin-top: 0.878vw;
+  margin-left: 1.611vw;
+  display: flex;
+}
+
+.customerContactHeading {
+  width: 10.029vw;
+  height: 1.537vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #8d8d8d;
+}
+.customerContactNoDetail {
+  width: 34.627vw;
+  height: 1.537vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #2d2d2d;
+  margin-left: 4.246vw;
+}
+.editTheAddress{
+  height:1.537vw ;
+  width:2.928vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #8D8D8D;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.deliveryAddressBox button {
+  width: 12.299vw;
+  height: 3.514vw;
+  background: linear-gradient(#f5004e, #8e0072);
+  border: 1px solid #cdcdcd;
+  margin-top: 1.497vw;
+  margin-left: 21.962vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: white;
+  cursor: pointer;
+}
+.deliveryAddressBox button:focus {
+  outline: none;
+}
+.orderSummaryCartBox {
+  width: 47.115vw;
+  height:32.244vw;
+  margin-top: 1.245vw;
+  margin-left: 10.176vw;
+  display: grid;
+  grid-template-rows: 1.537vw 14.967vw 15.739vw;
+}
+.itemNoHeading {
+  width: 4.026vw;
+  height: 1.537vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #4d4d4d;
+}
+
+.givenOrderNo1 {
+  width: 47.115vw;
+  height: 14.275vw;
+  margin-top: 0.712vw;
+  display: flex;
+}
+.imageoftheProduct1 {
+  width: 18.668vw;
+  height: 14.275vw;
+  border: 1px solid #cdcdcd;
+  background: #6d6d6d;
+}
+.detailsoftheProduct1 {
+  height: 14.275vw;
+  width: 22.589vw;
+
+  margin-left: 1.234vw;
+  display: grid;
+  grid-template-rows: 3.221vw 2.835vw 4.246vw 3.441vw;
+}
+.nameoftheProductGiven {
+  width:22.589vw;
+  height: 3.221vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #2d2d2d;
+}
+
+.priceoftheGivenProduct {
+  width:22.589vw;
+  height: 2.050vw;
+  color: #2d2d2d;
+  font: normal normal normal 1.464vw/2.196vw Poppins;
+  margin-top: 0.786vw;
+}
+.tagsOfGivenProduct {
+  display: grid;
+  grid-template-rows: 1.537vw 1.537vw;
+  height: 3.441vw;
+  width: 22.589vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  margin-top: 0.732vw;
+}
+.descriptionofGivenProduct {
+  width: 22.589vw;
+  height: 3.660vw;
+  display: grid;
+  grid-template-rows: 1.537vw 1.537vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+}
+.givenOrderNo2 {
+  width:47.115vw;
+  height: 14.275vw;
+  margin-top: 1.485vw;
+  display: flex;
+}

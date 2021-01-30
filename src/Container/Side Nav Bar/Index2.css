@@ -1,0 +1,112 @@
+.sidenavbar {
+  position: sticky;
+  top: 6.5vw;
+  z-index: 1000;
+  margin-top: 0vw;
+  margin-left: 0pvw;
+  width: 19.766vw;
+  height: 88.061vw;
+  background-color: #ffffff;
+}
+.sidetop {
+  align-items: left;
+  justify-content: left;
+  margin-top: 3.239vw;
+  margin-left: 2.343vw;
+  height: 12.5vw;
+  width: 13.177vw;
+  font: normal normal normal 0.878vw/1.83vw Poppins;
+}
+
+.sidetop li {
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  font: normal normal bold 0.878vw/1.83vw Poppins;
+  color: #4d4d4d;
+  text-decoration: none;
+  margin-top: 0.295vw;
+  color: #4d4d4d;
+}
+.sidetop li ul {
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  font: normal normal bold 1.245vw/1.83vw Poppins;
+  color: #4d4d4d;
+  text-decoration: none;
+  color: #4d4d4d;
+}
+.sidetop li span {
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  font: normal normal bold 1.245vw/1.83vw Poppins;
+  color: #4d4d4d;
+  text-decoration: none;
+  cursor: pointer;
+}
+.sidetop > li > ul > li {
+  float: left;
+}
+.sidetop > li > ul > li > a {
+  display: block;
+  font: normal normal bold 1.245vw/1.83vw Poppins;
+}
+.sidetop > li > ul > li a {
+  display: block;
+  text-decoration: none;
+  font: normal normal bold 1.245vw/1.83vw Poppins;
+  color: #4d4d4d;
+}
+.sidemid {
+  align-items: left;
+  justify-content: left;
+  margin-top: 2.9vw;
+  margin-left: 2.343vw;
+  height: 20.007vw;
+  width: 13.958vw;
+  font: normal normal normal 1.245vw/0vw Poppins;
+  color: #4d4d4d;
+}
+.sidemid span {
+  font: normal normal normal 0.878vw/1.23vw Poppins;
+  background-image: linear-gradient(#f5004e, #8e0072);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  font-weight: 500;
+  font-style: italic;
+}
+.sidebottom {
+  align-items: left;
+  justify-content: left;
+  margin-top: 26px;
+  margin-left: 2.343vw;
+  height: 11.375vw;
+  width: 16.423vw;
+}
+.sidebottom span {
+  font: normal normal normal 0.878vw/1.4vw Poppins;
+  color: #adadad;
+}
+.nulllCategories{
+  width:10vw;
+  height:8vw;
+  background-image: linear-gradient(#f5004e, #8e0072);
+
+}
+.nulllCategories h2{
+  margin-top:1vw;
+  height:min-content;
+  width:min-content;
+  margin-left: 1vw;
+  font: normal normal normal 1.824vw/1.68vw Acme;
+  
+}
+@media (max-width: 700px) {
+  .sidenavbar {
+    display: none;
+  }
+}

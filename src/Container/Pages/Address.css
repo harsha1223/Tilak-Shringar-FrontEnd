@@ -1,0 +1,298 @@
+.addressBox {
+  display: grid;
+  border: 0.073vw solid #707070;
+  width: 67.35vw;
+  height: 49.816vw;
+  margin-left: 22.474vw;
+  grid-template-rows: 4.539vw 1.684vw 17.13vw 18.594vw;
+}
+#line001 {
+  margin-right: 0;
+  margin-top: 1.611vw;
+  width: 34.553vw;
+  margin-left: 5.051vw;
+  border: 0.073vw solid rgb(196, 196, 196);
+}
+#line002 {
+  margin-right: 0;
+  margin-top: 1.611vw;
+  width: 7.906vw;
+  margin-left: 0;
+  border: 0.073vw solid rgb(119, 118, 118);
+}
+#line003 {
+  margin-right: 0;
+  margin-top: 1.611vw;
+  width: 15.007vw;
+  margin-left: 0;
+  border: 0.073vw solid rgb(196, 196, 196);
+}
+.addressNo {
+  margin-top: 3.001vw;
+  margin-left: 5.051vw;
+  width: 56.735vw;
+  height: 14.129vw;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 0.073vw solid #cdcdcd;
+  display: grid;
+  grid-template-rows: 7.613vw 86.6.332vw 0;
+}
+
+.myAddresss {
+  height: 6.662vw;
+  margin-left: 1.611vw;
+  margin-top: 1.684vw;
+  width: 55.124vw;
+  display: flex;
+}
+
+.myyAddressss {
+  margin-top: 0vw;
+  margin-left: 0vw;
+  width: 6.589vw;
+  height: 1.537vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #8d8d8d;
+}
+
+.myaddressLine {
+  margin-top: 0vw;
+  margin-left: 7.467vw;
+  width: 36.603vw;
+  height: 6.662vw;
+  display: grid;
+  grid-template-rows: 0vw 0vw 0vw;
+}
+
+.addressLine1 {
+  margin-top: 0vw;
+  margin-left: 0vw;
+  width: 36.603vw;
+  height: 1.464vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #2d2d2d;
+}
+
+.addressLine2 {
+  margin-top: 1.464vw;
+  margin-left: 0vw;
+  width: 36.603vw;
+  height: 1.464vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #2d2d2d;
+}
+
+.addressLine3 {
+  margin-top: 2.928vw;
+  margin-left: 0vw;
+  width: 36.603vw;
+  height: 1.464vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #2d2d2d;
+}
+
+#addressIcon {
+  margin-left: 1.83vw;
+  width: 2.123vw;
+  height: 2.123vw;
+}
+
+.addressContact {
+  margin-top: 1.611vw;
+  margin-left: 1.611vw;
+  width: 55.124vw;
+  height: 2.855vw;
+  display: flex;
+}
+
+.addressContactNo {
+  width: 9.736vw;
+  height: 1.537vw;
+  margin-top: 0vw;
+  margin-left: 0vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #8d8d8d;
+}
+
+.addressMobileNo {
+  margin-top: 0vw;
+  margin-left: 4.246vw;
+  width: 36.603vw;
+  height: 1.537vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #2d2d2d;
+}
+
+.editBox {
+  width: 6.808vw;
+  height: 1.537vw;
+  margin-top: 4.246vw;
+  margin-left: 48.829vw;
+  text-decoration: underline;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #8d8d8d;
+  cursor: pointer;
+}
+
+.addressEdit {
+  width: 56.735vw;
+  height: 15.959vw;
+  margin-top: 2.635vw;
+  margin-left: 5.051vw;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 0.073vw solid #cdcdcd;
+  display: grid;
+  grid-template-rows: 9.151vw 3.148vw 3.367vw;
+}
+
+.myaddressEdit {
+  margin-top: 1.684vw;
+  margin-left: 1.611vw;
+  width: 41.398vw;
+  height: 7.54vw;
+  display: flex;
+}
+
+.addressEditmy {
+  width: 6.589vw;
+  height: 1.537vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #8d8d8d;
+  margin-top: 0;
+  margin-left: 0vw;
+}
+
+.inputBox {
+  margin-left: 8.163vw;
+  margin-top: 0vw;
+  width: 24.085vw;
+  height: 1.537vw;
+}
+
+#input1 {
+  font: normal normal normal 1vw/1.3vw Poppins;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+  width: 24.085vw;
+  border-bottom-color: #cacaca;
+}
+
+#input1:focus {
+  outline: none;
+}
+
+#input2 {
+  font: normal normal normal 1vw/1.3vw Poppins;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+  margin-top: 0.732vw;
+  width: 24.085vw;
+  border-bottom-color: #cacaca;
+}
+
+#input2:focus {
+  outline: none;
+}
+
+#input3 {
+  font: normal normal normal 1vw/1.3vw Poppins;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+  margin-top: 0.732vw;
+  width: 24.085vw;
+  border-bottom-color: #cacaca;
+}
+
+#input3:focus {
+  outline: none;
+}
+
+.contactEdit {
+  display: flex;
+  margin-left: 1.83vw;
+  width: 41.325vw;
+  height: 1.537vw;
+  margin-top: 0vw;
+}
+
+.contactNoEdit {
+  width: 9.736vw;
+  height: 1.537vw;
+  font: normal normal normal 1vw/1.3vw Poppins;
+  color: #8d8d8d;
+}
+
+.input4 {
+  font: normal normal normal 1vw/1.3vw Poppins;
+  margin-left: 4.758vw;
+  width: 24.085vw;
+}
+
+#input4 {
+  font: normal normal normal 1vw/1.3vw Poppins;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+  width: 24.085vw;
+  border-bottom-color: #cacaca;
+}
+
+#input4:focus {
+  outline: none;
+}
+
+.cancelButton {
+  margin-left: 35.871vw;
+  width: 20.644vw;
+  height: 2.196vw;
+  margin-top: 1.318vw;
+  display: flex;
+}
+
+.cancel {
+  width: 10.322vw;
+  height: 1.537vw;
+  text-align: center;
+  text-decoration: underline;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #c70000;
+  cursor: pointer;
+}
+.saveButton {
+  width: 10.322vw;
+  height: 1.537vw;
+  text-align: center;
+  text-decoration: underline;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  cursor: pointer;
+  color: #8d8d8d;
+}
+.buttonAdd {
+  margin-top: 2vw;
+  text-decoration: none;
+  width: 12.299vw;
+  height: 3.514vw;
+  margin-left: 27.526vw;
+  color: white;
+  cursor: pointer;
+  background-image: linear-gradient(#f5004e, #8e0072);
+  border: 0.073vw solid #cdcdcd;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+}
+.buttonAdd:focus{
+  outline:none;
+}
+@media (max-width: 700px) {
+  .headlinee {
+    margin-top: 2.143vw;
+    margin-left: 8vw;
+    font: normal normal normal 2.562vw/3.88vw Poppins;
+  }
+}

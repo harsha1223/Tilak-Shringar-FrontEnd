@@ -1,0 +1,768 @@
+.shop {
+  margin-top: -88.501vw;
+}
+
+.shopheadlinee {
+  margin-top: 10.5vw;
+  margin-left: 21.889vw;
+  font: normal normal normal 5.124vw/4.88vw Acme;
+  background-image: linear-gradient(#f5004e, #8e0072);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  width: 29.649vw;
+  height: 8.053vw;
+}
+
+.product1 {
+  width: 24.158vw;
+  height: 22.767vw;
+  position: relative;
+  display: inline-block;
+  border: 0.073vw solid #cdcdcd;
+  overflow: hidden;
+  /* margin-left: 1vw; */
+}
+
+.product1 img {
+  max-width: 100%;
+  height: 100%;
+}
+.product1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  background-color: black;
+  opacity: 0.5;
+  height: 100%;
+  width: 100%;
+}
+.product1:hover::before {
+  left: 0;
+}
+
+.p1info {
+  display: grid;
+  width: 24.158vw;
+  height: 6.808vw;
+  margin-top: 0.586vw;
+  margin-left: 0;
+}
+#product1i {
+  display: flex;
+  width: 24.158vw;
+  height: 3.88vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+}
+
+#price1 {
+  text-align: right;
+  width: 24.158vw;
+  height: 2.416vw;
+  margin-top: 0.366vw;
+  font: normal normal normal 1.757vw/2.562vw Poppins;
+}
+
+.ii1 {
+  margin-left: 0.5vw;
+  width: 2.343vw;
+  height: 2.343vw;
+  background: #cdcdcd 0% 0% no-repeat padding-box;
+  opacity: 1;
+  transform: translateY(22.694vw);
+}
+.product1:hover .ii1 {
+  transform: translateY(0);
+}
+.product2:hover .ii1 {
+  transform: translateY(0);
+}
+.product3:hover .ii1 {
+  transform: translateY(0);
+}
+.ii2 {
+  margin-top: 0;
+  width: 2.343vw;
+  height: 2.343vw;
+  background: #cdcdcd 0% 0% no-repeat padding-box;
+  opacity: 1;
+  transform: translateY(22.694vw);
+}
+.product1:hover .ii2 {
+  transform: translateY(0);
+}
+.product2:hover .ii2 {
+  transform: translateY(0);
+}
+.product3:hover .ii2 {
+  transform: translateY(0);
+}
+#iii1 {
+  margin-top: 0.293vw;
+  margin-left: 0.366vw;
+  width: 1.611vw;
+  height: 1.684vw;
+  color: #8d8d8d 0% 0% no-repeat padding-box;
+  opacity: 0.4;
+}
+
+#iii1:hover {
+  color: #4d8fac;
+  opacity: 2;
+}
+
+#iii2 {
+  margin-top: 0.293vw;
+  margin-left: 0.366vw;
+  width: 1.611vw;
+  height: 1.684vw;
+  color: #8d8d8d 0% 0% no-repeat padding-box;
+  opacity: 0.4;
+}
+
+#iii2:hover {
+  color: #e54725;
+  opacity: 1;
+}
+
+.nullProducts{
+  height:30vw;
+}
+.nullProducts h2{
+  margin-top:10vw;
+  width:fit-content;
+  margin-left: 43.5vw;
+  font: normal normal normal 5.124vw/4.88vw Acme;
+  background-image: linear-gradient(#f5004e, #8e0072);  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+
+/* .product2 {
+  margin-top: -30.161vw;
+  margin-left: 48.097vw;
+  width: 24.158vw;
+  height: 22.767vw;
+  border: 0.073vw solid #cdcdcd;
+}
+
+.p2info {
+  display: grid;
+  width: 24.158vw;
+  height: 6.808vw;
+  margin-top: 0.586vw;
+  margin-left: 48.097vw;
+}
+
+#product2i {
+  display: flex;
+  width: 24.158vw;
+  height: 3.88vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+}
+
+#price2 {
+  text-align: right;
+  width: 24.158vw;
+  height: 2.416vw;
+  margin-top: 0.366vw;
+  font: normal normal normal 1.757vw/2.562vw Poppins;
+}
+
+.product3 {
+  margin-top: -30.161vw;
+  margin-left: 73.719vw;
+  width: 24.158vw;
+  height: 22.767vw;
+  border: 0.073vw solid #cdcdcd;
+}
+
+.p3info {
+  display: grid;
+  width: 24.158vw;
+  height: 6.808vw;
+  margin-top: 0.586vw;
+  margin-left: 73.719vw;
+}
+
+#product3i {
+  display: flex;
+  width: 24.158vw;
+  height: 3.88vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+}
+
+#price3 {
+  text-align: right;
+  width: 24.158vw;
+  height: 2.416vw;
+  margin-top: 0.366vw;
+  font: normal normal normal 1.757vw/2.562vw Poppins;
+}
+
+.product4 {
+  margin-top: 2.489vw;
+  margin-left: 22.474vw;
+  width: 24.158vw;
+  height: 22.767vw;
+  border: 0.073vw solid #cdcdcd;
+}
+
+.p4info {
+  display: grid;
+  width: 24.158vw;
+  height: 6.808vw;
+  margin-top: 0.586vw;
+  margin-left: 22.474vw;
+}
+
+#product4i {
+  display: flex;
+  width: 24.158vw;
+  height: 3.88vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+}
+
+#price4 {
+  text-align: right;
+  width: 24.158vw;
+  height: 2.416vw;
+  margin-top: 0.366vw;
+  font: normal normal normal 1.757vw/2.562vw Poppins;
+}
+
+.product5 {
+  margin-top: -30.161vw;
+  margin-left: 48.097vw;
+  width: 24.158vw;
+  height: 22.767vw;
+  border: 0.073vw solid #cdcdcd;
+}
+
+.p5info {
+  display: grid;
+  width: 24.158vw;
+  height: 6.808vw;
+  margin-top: 0.586vw;
+  margin-left: 48.097vw;
+}
+
+#product5i {
+  display: flex;
+  width: 24.158vw;
+  height: 3.88vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+}
+
+#price5 {
+  text-align: right;
+  width: 24.158vw;
+  height: 2.416vw;
+  margin-top: 0.366vw;
+  font: normal normal normal 1.757vw/2.562vw Poppins;
+}
+
+.product6 {
+  margin-top: -30.161vw;
+  margin-left: 73.719vw;
+  width: 24.158vw;
+  height: 22.767vw;
+  border: 0.073vw solid #cdcdcd;
+}
+
+.p6info {
+  display: grid;
+  width: 24.158vw;
+  height: 6.808vw;
+  margin-top: 0.586vw;
+  margin-left: 73.719vw;
+}
+
+#product6i {
+  display: flex;
+  width: 24.158vw;
+  height: 3.88vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+}
+
+#price6 {
+  text-align: right;
+  width: 24.158vw;
+  height: 2.416vw;
+  margin-top: 0.366vw;
+  font: normal normal normal 1.757vw/2.562vw Poppins;
+}
+
+.product7 {
+  margin-top: 2.489vw;
+  margin-left: 22.474vw;
+  width: 24.158vw;
+  height: 22.767vw;
+  border: 0.073vw solid #cdcdcd;
+}
+
+.p7info {
+  display: grid;
+  width: 24.158vw;
+  height: 6.808vw;
+  margin-top: 0.586vw;
+  margin-left: 22.474vw;
+}
+
+#product7i {
+  display: flex;
+  width: 24.158vw;
+  height: 3.88vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+}
+
+#price7 {
+  text-align: right;
+  width: 24.158vw;
+  height: 2.416vw;
+  margin-top: 0.366vw;
+  font: normal normal normal 1.757vw/2.562vw Poppins;
+}
+
+.product8 {
+  margin-top: -30.161vw;
+  margin-left: 48.097vw;
+  width: 24.158vw;
+  height: 22.767vw;
+  border: 0.073vw solid #cdcdcd;
+}
+
+.p8info {
+  display: grid;
+  width: 24.158vw;
+  height: 6.808vw;
+  margin-top: 0.586vw;
+  margin-left: 48.097vw;
+}
+
+#product8i {
+  display: flex;
+  width: 24.158vw;
+  height: 3.88vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+}
+
+#price8 {
+  text-align: right;
+  width: 24.158vw;
+  height: 2.416vw;
+  margin-top: 0.366vw;
+  font: normal normal normal 1.757vw/2.562vw Poppins;
+}
+
+.product9 {
+  margin-top: -30.161vw;
+  margin-left: 73.719vw;
+  width: 24.158vw;
+  height: 22.767vw;
+  border: 0.073vw solid #cdcdcd;
+}
+
+.p9info {
+  display: grid;
+  width: 24.158vw;
+  height: 6.808vw;
+  margin-top: 0.586vw;
+  margin-left: 73.719vw;
+}
+
+#product9i {
+  display: flex;
+  width: 24.158vw;
+  height: 3.88vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+}
+
+#price9 {
+  text-align: right;
+  width: 24.158vw;
+  height: 2.416vw;
+  margin-top: 0.366vw;
+  font: normal normal normal 1.757vw/2.562vw Poppins;
+} */
+.shoploadMore {
+  width: 12.299vw;
+  height: 3.514vw;
+  margin-left: 54vw;
+  margin-top: 5vw;
+  border: 0.073vw solid #cdcdcd;
+  font: normal normal normal 1.073vw/1.684vw Poppins;
+  color: white;
+  cursor: pointer;
+  background-image: linear-gradient(#f5004e, #8e0072);
+}
+.shoploadMore:focus {
+  outline: none;
+}
+.cards {
+  display: flex;
+  margin-top: 7.321vw;
+  margin-left: 3.807vw;
+  height: 21.23vw;
+  width: 92.387vw;
+}
+
+.rrcard3 {
+  margin-left: 35.286vw;
+  display: flex;
+  height: 21.23vw;
+  width: 21.157vw;
+  border: 0.146vw solid #cdcdcd;
+}
+
+.rrcard3 span {
+  color: #4d4d4d;
+  margin-top: 8.858vw;
+  position: relative;
+  margin-left: 3.014vw;
+  font: normal normal normal 2.489vw/3.734vw Poppins;
+}
+.rrcard3 span::before {
+  content: "";
+  width: 100%;
+  height: 0.146vw;
+  position: absolute;
+  background-color: #4d4d4d;
+  bottom: 8.419vw;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.75s ease-out;
+}
+.rrcard3 span:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.rrcard4 {
+  display: flex;
+  margin-left: 4.758vw;
+  height: 21.23vw;
+  width: 21.157vw;
+  border: 0.146vw solid #cdcdcd;
+}
+
+.rrcard4 span {
+  color: #4d4d4d;
+  margin-top: 8.858vw;
+  position: relative;
+  margin-left: 6.015vw;
+  font: normal normal normal 2.489vw/3.734vw Poppins;
+}
+.rrcard4 span::before {
+  content: "";
+  width: 100%;
+  height: 0.146vw;
+  position: absolute;
+  background-color: #4d4d4d;
+  bottom: 8.419vw;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.75s ease-out;
+}
+.rrcard4 span:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+/* .ii {
+  display: "flex";
+}
+
+.ii1 {
+  margin-top: 0.366vw;
+  margin-left: 20.937vw;
+  width: 2.343vw;
+  height: 2.343vw;
+  background: #cdcdcd 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.ii2 {
+  margin-top: -2.343vw;
+  margin-left: 18.009vw;
+  width: 2.343vw;
+  height: 2.343vw;
+  background: #cdcdcd 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+#iii1 {
+  margin-top: 0.293vw;
+  margin-left: 0.366vw;
+  width: 1.611vw;
+  height: 1.684vw;
+  color: #8d8d8d 0% 0% no-repeat padding-box;
+  opacity: 0.4;
+}
+
+#iii1:hover {
+  color: #4d8fac;
+  opacity: 2;
+}
+
+#iii2 {
+  margin-top: 0.293vw;
+  margin-left: 0.366vw;
+  width: 1.611vw;
+  height: 1.684vw;
+  color: #8d8d8d 0% 0% no-repeat padding-box;
+  opacity: 0.4;
+}
+
+#iii2:hover {
+  color: #e54725;
+  opacity: 1;
+} */
+
+@media (max-width: 700px) {
+  .shop {
+    margin-top: 1vw;
+  }
+
+  .headlinee {
+    margin-top: 2.143vw;
+    margin-left: 6.286vw;
+    font: normal normal normal 2.562vw/3.88vw Poppins;
+  }
+
+  .product1 {
+    margin-left: 1.286vw;
+    width: 29.429vw;
+    height: 29.429vw;
+  }
+
+  .p1info {
+    margin-left: 1.286vw;
+  }
+
+  #product1i {
+    width: 29.429vw;
+    height: 6.286vw;
+    font: normal normal normal 1.9vw/3.286vw Poppins;
+  }
+
+  #price1 {
+    width: 29.714vw;
+    height: 2.714vw;
+    font: normal normal normal 1.7vw/2.857vw Poppins;
+  }
+
+  .ii {
+    width: 26.997vw;
+    height: 4vw;
+    margin-left: 1.009vw;
+    margin-top: 0.571vw;
+  }
+
+  .ii2 {
+    margin-left: 0;
+    width: 3.857vw;
+    height: 3.857vw;
+    margin-top: -3.857vw;
+  }
+
+  .ii1 {
+    margin-left: 23.143vw;
+    width: 3.857vw;
+    height: 3.857vw;
+  }
+
+  #iii2 {
+    width: 2.857vw;
+    height: 2.571vw;
+    margin-top: 0.571vw;
+    margin-left: 0.5vw;
+  }
+
+  #iii1 {
+    width: 2.857vw;
+    height: 2.571vw;
+    margin-top: 0.571vw;
+    margin-left: 0.5vw;
+  }
+
+  .product2 {
+    width: 29.429vw;
+    height: 29.429vw;
+    margin-top: -36.714vw;
+    margin-left: 33.5vw;
+  }
+
+  .p2info {
+    margin-left: 33.5vw;
+  }
+
+  #product2i {
+    width: 31.429vw;
+    height: 6.286vw;
+    font: normal normal normal 1.9vw/3.286vw Poppins;
+  }
+
+  #price2 {
+    width: 29.714vw;
+    height: 2.714vw;
+    font: normal normal normal 1.7vw/2.857vw Poppins;
+  }
+
+  .product3 {
+    width: 29.429vw;
+    height: 29.429vw;
+    margin-top: -36.857vw;
+    margin-left: 65.5vw;
+  }
+  .p3info {
+    margin-left: 65.5vw;
+  }
+
+  #product3i {
+    width: 31.429vw;
+    height: 6.286vw;
+    font: normal normal normal 1.9vw/3.286vw Poppins;
+  }
+
+  #price3 {
+    width: 29.714vw;
+    height: 2.714vw;
+    font: normal normal normal 1.7vw/2.857vw Poppins;
+  }
+  .product4 {
+    margin-left: 1.286vw;
+    width: 29.429vw;
+    height: 29.429vw;
+    margin-top: 2.196vw;
+  }
+
+  .p4info {
+    margin-left: 1.286vw;
+  }
+
+  #product4i {
+    width: 29.429vw;
+    height: 6.286vw;
+    font: normal normal normal 1.9vw/3.286vw Poppins;
+  }
+
+  #price4 {
+    width: 29.714vw;
+    height: 2.714vw;
+    font: normal normal normal 1.7vw/2.857vw Poppins;
+  }
+  .product5 {
+    width: 29.429vw;
+    height: 29.429vw;
+    margin-top: -36.714vw;
+    margin-left: 33.5vw;
+  }
+
+  .p5info {
+    margin-left: 33.5vw;
+  }
+
+  #product5i {
+    width: 31.429vw;
+    height: 6.286vw;
+    font: normal normal normal 1.9vw/3.286vw Poppins;
+  }
+
+  #price5 {
+    width: 29.714vw;
+    height: 2.714vw;
+    font: normal normal normal 1.7vw/2.857vw Poppins;
+  }
+  .product6 {
+    width: 29.429vw;
+    height: 29.429vw;
+    margin-top: -36.857vw;
+    margin-left: 65.5vw;
+  }
+  .p6info {
+    margin-left: 65.5vw;
+  }
+
+  #product6i {
+    width: 31.429vw;
+    height: 6.286vw;
+    font: normal normal normal 1.9vw/3.286vw Poppins;
+  }
+
+  #price6 {
+    width: 29.714vw;
+    height: 2.714vw;
+    font: normal normal normal 1.7vw/2.857vw Poppins;
+  }
+  .product7 {
+    margin-left: 1.286vw;
+    width: 29.429vw;
+    height: 29.429vw;
+    margin-top: 2.196vw;
+  }
+
+  .p7info {
+    margin-left: 1.286vw;
+  }
+
+  #product7i {
+    width: 29.429vw;
+    height: 6.286vw;
+    font: normal normal normal 1.9vw/3.286vw Poppins;
+  }
+
+  #price7 {
+    width: 29.714vw;
+    height: 2.714vw;
+    font: normal normal normal 1.7vw/2.857vw Poppins;
+  }
+  .product8 {
+    width: 29.429vw;
+    height: 29.429vw;
+    margin-top: -36.714vw;
+    margin-left: 33.5vw;
+  }
+
+  .p8info {
+    margin-left: 33.5vw;
+  }
+
+  #product8i {
+    width: 31.429vw;
+    height: 6.286vw;
+    font: normal normal normal 1.9vw/3.286vw Poppins;
+  }
+
+  #price8 {
+    width: 29.714vw;
+    height: 2.714vw;
+    font: normal normal normal 1.7vw/2.857vw Poppins;
+  }
+  .product9 {
+    width: 29.429vw;
+    height: 29.429vw;
+    margin-top: -36.857vw;
+    margin-left: 65.5vw;
+  }
+  .p9info {
+    margin-left: 65.5vw;
+  }
+
+  #product9i {
+    width: 31.429vw;
+    height: 6.286vw;
+    font: normal normal normal 1.9vw/3.286vw Poppins;
+  }
+
+  #price9 {
+    width: 29.714vw;
+    height: 2.714vw;
+    font: normal normal normal 1.7vw/2.857vw Poppins;
+  }
+}

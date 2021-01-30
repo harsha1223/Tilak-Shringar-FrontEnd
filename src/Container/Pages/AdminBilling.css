@@ -1,0 +1,265 @@
+#billingLine1 {
+  width: 14.788vw;
+  margin-left: 0;
+  margin-top: 0;
+  margin-right: 0;
+  border:2px solid #cdcdcd;
+}
+
+#billingLine2 {
+  width: 7.906vw;
+  border: 2px solid #4d4d4d;
+  margin-right: 0;
+  margin-left: 0;
+  margin-top: 0;
+}
+#billingLine3 {
+  width: 59.151vw;
+  margin-left: 0;
+  margin-top: 0;
+  margin-right: 0;
+  border: 2px solid #cdcdcd;
+}
+
+.SearchBilling {
+  width: 79.649vw;
+  height: 2.928vw;
+  margin-top: 2.343vw;
+  margin-left: 6.369vw;
+  border: 0.073vw solid coral;
+}
+.billingCols {
+  width: 77.745vw;
+  height: 1.537vw;
+  margin-top: 1.757vw;
+  margin-left: 1.391vw;
+  display: flex;
+}
+.serialNo {
+  width: 2.928vw;
+  height: 1.537vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #4d4d4d;
+}
+.orderIdBill {
+  width: 5.930vw;
+  height: 1.537vw;
+  margin-left: 3.001vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #4d4d4d;
+}
+.orderDateBill {
+  width: 7.467vw;
+  height: 1.537vw;
+  margin-left: 3.001vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #4d4d4d;
+}
+.orderStatusBill {
+  width: 3.441vw;
+  height: 1.537vw;
+  margin-left: 3.807vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #4d4d4d;
+}
+.orderQuantityBill {
+  width: 5.637vw;
+  height: 1.537vw;
+  margin-left: 4.100vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #4d4d4d;
+}
+.orderUserType {
+  width: 5.344vw;
+  height: 1.537vw;
+  margin-left: 2.343vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #4d4d4d;
+}
+.orderNameBill {
+  width: 3.294vw;
+  height: 1.537vw;
+  margin-left: 3.441vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #4d4d4d;
+}
+.orderTotalAmount {
+  width: 7.394vw;
+  height: 1.537vw;
+  margin-left: 3.953vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #4d4d4d;
+}
+
+.orderPaymentMethod {
+  width: 9.444vw;
+  height: 1.537vw;
+  margin-left: 2.123vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #4d4d4d;
+}
+.personBilldetail {
+  width: 74.158vw;
+  height: 38.433vw;
+  border: 0.073vw solid slateblue;
+  margin-left: 2.489vw;
+}
+
+.productDetailsAdminBilling {
+  width: 74.085vw;
+  height: 1.537vw;
+  display: flex;
+  margin-left: 2.489vw;
+  margin-top: 1.171vw;
+}
+.oneSerial {
+  width: 0.586vw;
+  height: 1.537vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #8d8d8d;
+}
+.oneId {
+  margin-left: 4.905vw;
+  width: 4.100vw;
+  height: 1.537vw;
+  text-decoration: underline;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #4d4d4d;
+}
+.oneDate {
+  margin-left: 4.539vw;
+  width: 6.662vw;
+  height: 1.537vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #8d8d8d;
+}
+.oneStatus {
+  margin-left: 3.514vw;
+  width: 5.124vw;
+  height: 1.537vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #13c200;
+}
+.oneQuantity {
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #8d8d8d;
+  margin-left: 4.685vw;
+  width: 1.025vw;
+  height: 1.537vw;
+}
+.oneUsertype {
+  width: 5.417vw;
+  height: 1.537vw;
+  margin-left: 5.198vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #8d8d8d;
+}
+.oneName {
+  width: 6.662vw;
+  height: 1.537vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #8d8d8d;
+  margin-left: 2.416vw;
+}
+.oneTotal {
+  width: 4.319vw;
+  height: 1.537vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #4d4d4d;
+  margin-left: 2.489vw;
+}
+.onePayment {
+  margin-left: 5.783vw;
+  width: 6.589vw;
+  height: 1.537vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #8d8d8d;
+}
+.AdminBillingOuterBox {
+  height: 35.505vw;
+  width: 79.502vw;
+  display: grid;
+  grid-template-rows: repeat(500000, 2.709vw);
+  overflow: auto;
+}
+.AdminBillingOuterBox::-webkit-scrollbar {
+  width: 0.439vw;
+}
+.AdminBillingOuterBox::-webkit-scrollbar-track {
+  border-radius: 0.732vw;
+  border: 0.366vw solid #e9e9e9;
+  box-shadow: inset 0 0 0.183vw 0.146vw rgba(0, 0, 0, 0.5);
+}
+.AdminBillingOuterBox::-webkit-scrollbar-thumb {
+  background: #cbcbcb;
+}
+.adminBillingPopUp {
+  position: absolute;
+  -webkit-position: sticky;
+  width: 100vw;
+  height: 142vw;
+  background-color: rgba(0, 0, 0, 0.9);
+  top: 0;
+  z-index: 1046;
+  display: none;
+}
+.adminBillingSmallPopUp {
+  background-color: white;
+  z-index: 1046;
+  width: 32.504vw;
+  height: 11.567vw;
+  box-shadow: 0 0.220vw 0.439vw #00000029;
+  border-radius: 1.464vw;
+  margin-top: 44.290vw;
+  margin-left: 36.176vw;
+  display: grid;
+  grid-template-rows: 2.928vw 3.441vw 4.026vw;
+}
+.BillingsectionHeading {
+  width: 10.395vw;
+  height: 0.073vw;
+  font: normal normal normal 1.464vw/0.073vw Poppins;
+  margin-left: 11.127vw;
+  padding-top: 1.171vw;
+  color: #2d2d2d;
+}
+.EmptysectionLine {
+  width: 28.843vw;
+  height: 0.073vw;
+  margin-left: 3.807vw;
+  margin-top: 1.684vw;
+  font: normal normal normal 1.098vw/1.391vw poppins;
+  color: #8d8d8d;
+}
+.billingButtons {
+  display: flex;
+  width: 12.079vw;
+  height: 2.855vw;
+  margin-left: 10.835vw;
+  margin-top: 1.171vw;
+}
+.billingButtonNo {
+  width: 4.758vw;
+  height: 2.855vw;font: normal normal normal 1.098vw/1.391vw poppins;
+  color: white;
+  background: #ff3b3b;
+  box-shadow: 0 0.220vw 0.439vw #00000029;
+  border: white;
+  cursor: pointer;
+}
+.billingButtonNo:focus {
+  outline: none;
+}
+.billingButtonYes {
+  cursor: pointer;font: normal normal normal 1.098vw/1.391vw poppins;
+  width: 4.758vw;
+  height: 2.855vw;
+  color: white;
+  background: #13c200;
+  box-shadow: 0 0.220vw 0.439vw #00000029;
+  margin-left: 1.098vw;
+  border: white;
+}
+.billingButtonYes:focus {
+  outline: none;
+}

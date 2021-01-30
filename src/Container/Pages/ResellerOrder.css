@@ -1,0 +1,47 @@
+.ResllerOrder {
+  width: 76px;
+  height: 28px;
+  font: normal normal normal 20px/30px Poppins;
+  color: #4d4d4d;
+  margin-top: 0;
+  margin-left: 0;
+}
+.ResellerEarning {
+  width: 99px;
+  height: 28px;
+  margin-top: 0px;
+  margin-left: 123px;
+  font: normal normal normal 20px/30px Poppins;
+  color: #8d8d8d;
+}
+.ResellerNotification {
+  width: 148px;
+  height: 28px;
+  margin-top: 0px;
+  margin-left: 123px;
+  font: normal normal normal 20px/30px Poppins;
+  color: #8d8d8d;
+}
+#ResellerOrderLine2 {
+  width: 83px;
+  border: 2px solid #4d4d4d;
+  margin-right: 0;
+  margin-left: 0;
+  margin-top: 0;
+}
+.CouponCode {
+  width: 868px;
+  height: 21px;
+  font: normal normal normal 15px/23px Poppins;
+  color: #8d8d8d;
+  padding-top: 9px;
+}
+.CouponCodeValue {
+  width: 208px;
+  height: 21px;
+  font: normal normal normal 15px/23px Poppins;
+  color: #cdcdcd;
+  text-align: right;
+  margin-top: 9px;
+}
+

@@ -1,0 +1,190 @@
+.loginOuterBox {
+  width: 839px;
+  height: 484px;
+  margin-left: 299px;
+  margin-top: 32px;
+  border: 1px solid #dddddd;
+  display: flex;
+}
+.firstSignBox {
+  width: 279px;
+  height: 422px;
+  margin-left: 75px;
+  margin-top: 37px;
+  display: grid;
+  grid-template-rows: 21px 38px 50px 50px 50px 50px 33px 30px 50px 50px;
+}
+.betweenOR {
+  width: 15px;
+  height: 21px;
+  font: normal normal normal 15px/23px Poppins;
+  color: #3d3d3d;
+  margin-left: 58px;
+  margin-top: 37px;
+}
+.firstLoginBox {
+  width: 279px;
+  height: 266px;
+  margin-left: 108px;
+  margin-top: 37px;
+  display: grid;
+  grid-template-rows: 21px 38px 50px 50px 30px 76px;
+}
+.neworalready {
+  width: 211px;
+  height: 21px;
+  font: normal normal normal 15px/23px Poppins;
+  color: #3d3d3d;
+}
+.filldetailHead {
+  width: 186px;
+  height: 17px;
+  margin-top: 21px;
+  font: normal normal normal 12px/18px Poppins;
+  color: #ac06d4;
+}
+.fillouterBoxborder {
+  width: 279px;
+  height: 38px;
+  margin-top: 12px;
+  border: 1px solid #08e5a9;
+}
+.fillouterBoxborder input {
+  margin: 7px 12px 6px 12px;
+  width: 251px;
+  font: normal normal normal 12px/18px Poppins;
+  border: none;
+}
+.fillouterBoxborder input::placeholder {
+  color: #8d8d8d;
+}
+.fillouterBoxborder input:focus {
+  color: black;
+  outline: none;
+}
+.fillouterBoxborder input,
+select {
+  color: black;
+  font-weight: 500;
+}
+.orHeading {
+  margin-left: 132px;
+  margin-top: 12px;
+  width: 15px;
+  height: 21px;
+  font: normal normal normal 15px/23px Poppins;
+  color: #3d3d3d;
+}
+.containerCheck {
+  display: block;
+  position: relative;
+
+  margin-top: 12px;
+  cursor: pointer;
+  font: normal normal normal 12px/18px Poppins;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  padding-left: 27px;
+  margin-left: 10px;
+}
+.containerCheck input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkMark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 18px;
+  width: 18px;
+  background-color: #eee;
+}
+.containerCheck:hover input ~ .checkMark {
+  background-color: #ccc;
+}
+.containerCheck input:checked ~ .checkMark {
+  background-color: black;
+}
+.checkMark::after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.containerCheck input:checked ~ .checkMark::after {
+  display: block;
+}
+.containerCheck .checkMark::after {
+  left: 5px;
+  top: 0px;
+  width: 8px;
+  height: 13px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+.SignGoogle {
+  display: flex;
+  width: 162px;
+  height: 35px;
+  margin-left: 59px;
+  margin-top: 15px;
+  border: 0.1px solid white;
+  background-color: #df4a32;
+  cursor: pointer;
+}
+.googleIcon {
+  color: white;
+  height: 32px;
+  width: 25px;
+  margin-left: 5px;
+}
+.SignGoogle p {
+  height: 20px;
+  width: 120px;
+  margin-top: 7px;
+  margin-left: 6px;
+  color: white;
+  font-family: "Poppins";
+  font-size: 12px;
+}
+.continueButton {
+  width: 93px;
+  height: 38px;
+  margin-top: 12px;
+  margin-left: 93px;
+  box-shadow: 0px 3px 6px #00000029;
+  background-image: linear-gradient(#f5004e, #8e0072);
+  border: none;
+  cursor: pointer;
+  font: normal normal normal 12px/18px Poppins;
+  color: white;
+}
+.continueButton:focus {
+  outline: none;
+}
+.forgetPass{
+    text-decoration: underline;
+font: normal normal normal 12px/18px Poppins;color: #F80000;width: 142px;
+height: 18px;margin-top: 12px;cursor: pointer;
+}
+.loginButton{
+    box-shadow: 0px 3px 6px #00000029;
+  background-image: linear-gradient(#f5004e, #8e0072);
+  border: none;
+  cursor: pointer;
+  font: normal normal normal 12px/18px Poppins;
+  color: white;
+  width: 68px;
+  height: 38px;
+  margin-top: 49px;
+  margin-left: 123px;
+}
+.loginButton:focus {
+    outline: none;
+  }

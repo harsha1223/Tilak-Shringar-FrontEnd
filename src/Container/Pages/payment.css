@@ -1,0 +1,268 @@
+.paymentWay {
+  width: 64.056vw;
+  height: 2.050vw;
+  margin-top: 2.050vw;
+  margin-left: 17.962vw;
+  display: flex;
+}
+
+.mycartPayment {
+  width: 5.490vw;
+  height: 2.050vw;
+  font: normal normal normal 1.464vw/2.196vw Poppins;
+  color: #4d4d4d;
+}
+
+.mycartPaymentLine {
+  margin-left: 0.805vw;
+  width: 18.228vw;
+  border:2px solid #4d4d4d;
+  margin-top: 1.042vw;
+  margin-right: 0;
+}
+
+.orderPayment {
+  width: 9.444vw;
+  height: 2.050vw;
+  font: normal normal normal 1.464vw/2.196vw Poppins;
+  color: #4d4d4d;
+  margin-left: 0.805vw;
+}
+
+.orderPaymentLine {
+  width: 19.839vw;
+  margin-left: 0.805vw;
+  border: 2px solid #4d4d4d;
+  margin-top: 1.042vw;
+  margin-right: 0;
+}
+
+.finalPayment {
+  width: 6.515vw;
+  height: 2.050vw;
+  font: normal normal normal 1.464vw/2.196vw Poppins;
+  color: #4d4d4d;
+  margin-left: 0.805vw;
+}
+
+.paymentHeadline {
+  width: 23.324vw;
+  height: 6.587vw;
+  margin-left: 10.176vw;
+  margin-top: 2.855vw;
+  font: normal normal normal 5.124vw/4.88vw Acme;
+  background-image: linear-gradient(#f5004e, #8e0072);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.paymentBoxMain {
+  margin-left: 3.807vw;
+  margin-top: 1.171vw;
+  height: 40.483vw;
+  width: 89.165vw;
+  display: flex;
+}
+
+.paymentOption {
+  margin-top: 1.245vw;
+  height: 39.239vw;
+  width: 60.249vw;
+  display: grid;
+  grid-template-rows: 1.537vw 37.701vw;
+}
+
+.headingPaymentOption {
+  width: 12.518vw;
+  height: 1.537vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #4d4d4d;
+}
+
+.boxPaymentOption {
+  width: 60.249vw;
+  height: 36.530vw;
+  margin-top: 1.171vw;
+  border: 0.073vw solid #adadad;
+  padding: 1em;
+}
+
+.summaryDetail {
+  height: 36.823vw;
+  width: 26.208vw;
+  margin-left: 2.709vw;
+  display: grid;
+  grid-template-rows: 20.937vw 15.886vw;
+}
+
+.priceSummarybox {
+  width: 20.864vw;
+  height: 20.937vw;
+  margin-left: 2.672vw;
+  display: grid;
+  grid-template-rows: 2.782vw 2.762vw 2.123vw 5.930vw;
+}
+
+#priceSummaryHeading {
+  width: 8.346vw;
+  height: 1.537vw;
+  margin-left: 1.025vw;
+  margin-top: 1.245vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #4d4d4d;
+}
+
+.discountPrice {
+  height: 1.537vw;
+  width: 18.448vw;
+  margin-top: 1.225vw;
+  margin-left: 1.245vw;
+  display: flex;
+}
+
+#discountName {
+  width: 5.051vw;
+  height: 1.537vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #8d8d8d;
+}
+#discountPriceValue {
+  width: 10.001vw;
+  height: 1.537vw;
+  margin-left: 6.395vw;
+  color: #8d8d8d;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  text-align: right;
+}
+
+.bagTotalPrice {
+  height: 1.537vw;
+  width: 18.448vw;
+  margin-top: 0.586vw;
+  margin-left: 1.245vw;
+  display: flex;
+}
+
+#bagTotal {
+  width: 11.493vw;
+  height: 1.537vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #8d8d8d;
+}
+
+#bagTotalValue {
+  width: 7vw;
+  height: 1.537vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #4d4d4d;
+  text-align: right;
+}
+
+#confirmPayButton {
+  width: 15.300vw;
+  height: 3.587vw;
+  margin-top: 2.343vw;
+  margin-left: 2.928vw;
+  background: linear-gradient(#f5004e, #8e0072);
+  box-shadow: 0 0.220vw 0.439vw #00000029;
+  color: #ffffff;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  cursor: pointer;
+  border: 0.073vw solid #cdcdcd;
+}
+#confirmPayButton:focus {
+  outline: none;
+}
+.userDetails {
+  width: 26.208vw;
+  height: 14.129vw;
+  margin-top: 1.757vw;
+  border: 0.073vw solid #cdcdcd;
+  display: grid;
+  grid-template-rows: 2.928vw 5.344vw 2.416vw 2.343vw;
+}
+
+.userName {
+  width: 24.451vw;
+  height: 1.537vw;
+  margin-left: 1.611vw;
+  margin-top: 1.391vw;
+  display: flex;
+}
+#nameHeading {
+  width: 3.587vw;
+  height: 1.537vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #8d8d8d;
+}
+#nameOfPerson {
+  width: 12.445vw;
+  height: 1.537vw;
+  margin-left: 8.565vw;
+  font: normal normal bold 1.098vw/1.684vw Poppins;
+  color: #2d2d2d;
+}
+
+.addressDetail {
+  width: 24.451vw;
+  height: 4.905vw;
+  margin-left: 1.611vw;
+  margin-top: 0.805vw;
+  display: flex;
+}
+
+#useraddressDetail {
+  width: 6.589vw;
+  height: 1.537vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #8d8d8d;
+}
+.addressLineDetail {
+  margin-left: 5.417vw;
+  width: 12.299vw;
+  height: 4.905vw;
+  font: normal normal normal 1.171vw/1.684vw Poppins;
+  color: #2d2d2d;
+}
+.landmarkDetails {
+  width: 24.451vw;
+  height: 1.537vw;
+  margin-left: 1.611vw;
+  margin-top: 0.878vw;
+  display: flex;
+}
+#landmarkHeading {
+  width: 5.710vw;
+  height: 1.537vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #8d8d8d;
+}
+#locationUser {
+  width: 12.445vw;
+  height: 1.537vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #2d2d2d;
+  margin-left: 6.223vw;
+}
+.contactDetails {
+  width: 24.451vw;
+  height: 1.537vw;
+  margin-left: 1.611vw;
+  display: flex;
+  margin-top: 0.805vw;
+}
+#contactHeading {
+  width: 9.736vw;
+  height: 1.537vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #8d8d8d;
+}
+#phoneNoUser {
+  width: 12.445vw;
+  height: 1.537vw;
+  margin-left: 2.343vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #2d2d2d;
+}

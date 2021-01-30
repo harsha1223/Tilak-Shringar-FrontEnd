@@ -1,0 +1,73 @@
+.outerboxshipping {
+  width: 68.375vw;
+  height: 105.710vw;
+  margin-top: 7.321vw;
+  margin-left: 21.889vw;
+  display: grid;
+  grid-template-rows: 4.612vw 4.905vw 4.392vw 4.905vw 17.862vw 4.905vw 9.444vw 4.905vw 14.495vw 4.905vw 12.811vw 4.905vw 4.392vw 4.905vw 2.709vw;
+}
+.HeadingShipping {
+  width: 26.867vw;
+  height: 4.612vw;
+  background-image: linear-gradient(#f5004e, #8e0072);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  font: normal normal normal 3.294vw/4.978vw Acme;
+}
+
+.returnheading {
+  width: 43.192vw;
+  height: 2.562vw;
+  font: normal normal normal 1.830vw/2.782vw Poppins;
+  margin-top: 2.343vw;
+  color: #4d4d4d;
+}
+.content1Shipping {
+  width: 68.375vw;
+  height: 6.589vw;
+  margin-top: 1.171vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #4d4d4d;
+}
+.content2Shipping {
+  margin-top: 1.171vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #4d4d4d;
+}
+.content3Shipping {
+  margin-top: 1.171vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #4d4d4d;
+  width: 68.375vw;
+  height: 8.272vw;
+}
+.content4Shipping {
+  margin-top: 1.171vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #4d4d4d;
+  width: 68.375vw;
+  height: 13.324vw;
+}
+.content5Shipping {
+  width: 68.375vw;
+  height: 11.640vw;
+  margin-top: 1.171vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #4d4d4d;
+}
+.content6Shipping {
+  margin-top: 1.171vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #4d4d4d;
+  width: 68.375vw;
+  height: 3.221vw;
+}
+.content7Shipping {
+  margin-top: 1.171vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #4d4d4d;
+  width: 68.375vw;
+  height: 1.537vw;
+}

@@ -1,0 +1,171 @@
+.editProfile {
+  position: absolute;
+  -webkit-position: sticky;
+  width: 100vw;
+  height: 155vw;
+  background-color: rgba(0, 0, 0, 0.9);
+  top: 0;
+  z-index: 1046;
+  display: none;
+  margin-left: -33.089vw;
+}
+.editSmallPop {
+  margin-top: 14.641vw;
+  display: grid;
+  grid-template-rows: 4.100vw 11.859vw 9.956vw 6.515vw;
+  width: 38.653vw;
+  height: 48.682vw;
+  background-color: white;
+  z-index: 1046;
+  margin-left: 30.673vw;
+  box-shadow: 0 0.220vw 0.439vw #00000029;
+  border-radius: 1.464vw;
+}
+.editHeading {
+  width: 38.653vw;
+  height: 4.100vw;
+  display: flex;
+}
+.editClose {
+  width: 1.025vw;
+  height: 1.757vw;
+  font-size: 2.855vw;
+  transform: rotate(45deg);
+  cursor: pointer;
+  color: #4d4d4d;
+  margin-top: 1.171vw;
+  margin-left: 1.757vw;
+}
+.editPopHeading {
+  width: 8.638vw;
+  height: 1.757vw;
+  font: normal normal bold 1.464vw/1.757vw Montserrat;
+  color: #2d2d2d;
+  margin-top: 1.171vw;
+  margin-left: 12.299vw;
+}
+.imageDiv {
+  width: 9.370vw;
+  height: 9.370vw;
+  margin-top: 2.489vw;
+  margin-left: 14.641vw;
+  position: relative;
+  border-radius: 50%;
+}
+.imageChange {
+  width: 9.224vw;
+  height: 9.224vw;
+  display: block;
+  border-radius: 50%;
+  box-shadow: -0.3vw -0.3vw 0.798vw rgba(255, 255, 255, 0.5),
+    0.2vw 0.2vw 0.789vw rgba(0, 0, 0, 0.25);
+}
+.textHover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  opacity: 0;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  transition: 0.25s;
+}
+.textHover:hover {
+  opacity: 1;
+}
+.changeDetails {
+  width: 26.940vw;
+  height: 7.760vw;
+  margin-left: 5.710vw;
+  margin-top: 2.196vw;
+  display: grid;
+  grid-template-rows: 1.757vw 3.001vw 3.001vw;
+}
+#editInput1 {
+  font: normal normal normal 1.098vw/1.391vw Poppins;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+  border-bottom-color: #cdcdcd;
+  height: 1.757vw;
+  color: #8d8d8d;
+}
+#editInput1:focus {
+  outline: none;
+}
+#editInput2 {
+  font: normal normal normal 1.098vw/1.391vw Poppins;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+  border-bottom-color: #cdcdcd;
+  margin-top: 1.245vw;
+  height: 1.757vw;
+  color: #8d8d8d;
+}
+#editInput2:focus {
+  outline: none;
+}
+#editInput3 {
+  font: normal normal normal 1.098vw/1.391vw Poppins;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+  border-bottom-color: #cdcdcd;
+  margin-top: 1.245vw;
+  height: 1.757vw;
+  color: #8d8d8d;
+}
+#editInput3:focus {
+  outline: none;
+}
+.saveExitButton {
+  height: 2.855vw;
+  width: 29.063vw;
+  margin-top: 3.221vw;
+  margin-left: 4.832vw;
+  display: flex;
+}
+#cancelEditButton {
+  width: 12.958vw;
+  height: 2.855vw;
+  background: #ff3b3b 0% 0% no-repeat padding-box;
+  box-shadow: 0 0.220vw 0.439vw #00000029;
+  color: white;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  letter-spacing: 0.037vw;
+  cursor: pointer;
+}
+#cancelEditButton:focus{
+  outline: none;
+}
+#saveEditButton{
+  width: 12.958vw;
+  height: 2.855vw;
+  background: #13C200 0% 0% no-repeat padding-box;
+  box-shadow: 0 0.220vw 0.439vw #00000029;
+  color: white;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  letter-spacing: 0.037vw;
+  margin-left: 3.660vw;
+  cursor: pointer;
+}
+#saveEditButton:focus{
+  outline: none;
+}

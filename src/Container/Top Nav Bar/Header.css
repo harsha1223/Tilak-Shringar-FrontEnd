@@ -1,0 +1,258 @@
+.topheadd {
+  display: none;
+}
+.navbar {
+  position: sticky;
+  -webkit-position: sticky;
+  top: 0;
+  z-index: 1040;
+  display: flex;
+  width: 100vw;
+  height: 5.857vw;
+  background-color: #ffffff;
+}
+.hamburg {
+  display: flex;
+  width: 69.421vw;
+}
+.left {
+  position: relative;
+  margin-top: 0;
+  margin-left: 4.478vw;
+  height: 6vw;
+  width: 7.247vw;
+  padding: 0;
+}
+.left img {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 155%;
+  height: 6vw;
+  display: block;
+}
+#navlineee {
+  visibility: hidden;
+}
+.mid {
+  display: flex;
+  margin-top: 1.757vw;
+  margin-left: 18.596vw;
+  height: 1.537vw;
+  width: 39vw;
+}
+.mid li {
+  display: flex;
+  margin: 1.098vw;
+  font: normal normal normal 0.878vw/1.83vw Poppins;
+  color: #4d4d4d;
+  text-decoration: none;
+  position: relative;
+}
+
+.mid li::before {
+  content: "";
+  width: 100%;
+  height: 0.146vw;
+  position: absolute;
+  background-color: #4d4d4d;
+  bottom: -1.830vw;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.75s ease-out;
+}
+.mid li:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.foot {
+  visibility: hidden;
+}
+.right {
+  margin-right: 2.562vw;
+  display: flex;
+  margin-top: 1.757vw;
+  height: 2.928vw;
+  width: 21.208vw;
+}
+.cart {
+  display: flex;
+  margin-top: 0.9vw;
+  margin-left: 0.366vw;
+  height: 1.83vw;
+  width: 5.321vw;
+  margin-right: 0vw;
+  padding: 0.366vw;
+}
+.cartname {
+  display: flex;
+  font: normal normal normal 0.878vw/1.83vw Poppins;
+  color: #4d4d4d;
+  text-decoration: none;
+}
+.quantity {
+  color: white;
+  height: 1.699vw;
+  width: 1.699vw;
+  border-radius: 50%;
+  margin-left: 0.566vw;
+  align-items: center;
+  justify-content: center;
+  font: normal normal normal 0.878vw/1.83vw Poppins;
+  background-image: linear-gradient( #8e0072,#f5004e);
+}
+.quantity a {
+  margin-left: 0.439vw;
+}
+.user {
+  margin-top: 1.245vw;
+  /* width: 2.4vw;
+    height: 2.2vw; */
+  border-radius: 100%;
+  width: 1.9vw;
+  height: 1.79vw;
+  cursor: pointer;
+}
+.user img {
+  height: 100%;
+  width: 95%;
+}
+
+@media (max-width: 700px) {
+  .topheadd {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 1041;
+    display: flex;
+    width: 100vw;
+    height: 2.857vw;
+    background-color: #bebebe;
+  }
+  .navbar {
+    top: 2.875vw;
+    width: 100vw;
+    height: 7vw;
+    background-color: #ffffff;
+  }
+  .hamburg {
+    width: 45vw;
+    height: 93.143vw;
+    z-index: 1040;
+    background-color: white;
+    flex-flow: column nowrap;
+  }
+  #hamburgline1 {
+    margin-top: 0;
+    width: 3.429vw;
+    height: 0.429vw;
+  }
+  #hamburgline2 {
+    margin-top: 0;
+    width: 2.286vw;
+    height: 0.429vw;
+  }
+  #hamburgline3 {
+    margin-top: 0;
+    width: 3.429vw;
+    height: 0.429vw;
+  }
+  .left {
+    flex-flow: column nowrap;
+    margin-top: 3.429vw;
+    margin-left: 10.2vw;
+    height: 9vw;
+    width: 24vw;
+  }
+
+  .left img {
+    height: 11vw;
+    width: 16vw;
+  }
+  #navlineee {
+    margin-top: 5.5vw;
+    width: 12.429vw;
+    visibility: visible;
+    background-color: #adadad;
+    border-radius: 20%;
+    border: 0.3vw solid #adadad;
+  }
+  .mid {
+    padding: 0;
+    flex-flow: column nowrap;
+    margin-top: 5.929vw;
+    margin-left: 7.143vw;
+    height: 48.714vw;
+    width: 24vw;
+    justify-content: center;
+    align-items: center;
+  }
+  .mid li {
+    font: normal normal normal 2.143vw/3.286vw Poppins;
+    margin-top: 7.5vw;
+  }
+  .foot {
+    align-items: flex-start;
+    display: flex;
+    visibility: visible;
+    margin-top: 7.5vw;
+    color: #4d4d4d;
+    margin-left: 4.286vw;
+    font: normal normal normal 1.429vw/2.286vw Poppins;
+  }
+  .right {
+    margin-top: 0;
+    margin-left: 10vw;
+    margin-right: 0;
+    height: 6.429vw;
+    width: 60vw;
+  }
+  .cart {
+    display: flex;
+    margin-top: 0vw;
+    margin-left: 0.366vw;
+    height: 6.429;
+    width: 10vw;
+    padding: 0.366vw;
+  }
+  .cart li {
+    font: normal normal normal 1.714vw/2.571vw Poppins;
+    text-decoration: none;
+  }
+  .cartname {
+    margin-top: 2vw;
+  }
+  .quantity {
+    margin-top: 1.529vw;
+    background-color: #8d8d8d;
+    color: white;
+    height: 3.429vw;
+    width: 3.429vw;
+    border-radius: 50%;
+    margin-left: 3.429vw;
+    align-items: center;
+    justify-content: center;
+  }
+  .user {
+    margin-right: 0.366vw;
+    margin-left: 2.586vw;
+    margin-top: 1.9vw;
+    width: 3.429vw;
+    height: 3.429vw;
+    border: solid;
+    border-width: 0.14vw;
+    border-color: #cdcdcd;
+    border-radius: 50%;
+    background-color: #cdcdcd;
+  }
+  .icon {
+    width: 2.15vw;
+    height: 2.15vw;
+    margin-top: 0.4vw;
+    opacity: 0.6;
+    margin-bottom: 0.5vw;
+    margin-left: 0.45vw;
+  }
+}

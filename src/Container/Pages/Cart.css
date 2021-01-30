@@ -1,0 +1,136 @@
+.Nullcart{
+  height:30vw;
+}
+.Nullcart h2{
+  margin-top:10vw;
+  width:fit-content;
+  margin-left: 11.5vw;
+  font: normal normal normal 5.124vw/4.88vw Acme;
+  background-image: linear-gradient(#f5004e, #8e0072);
+}
+
+
+
+.mycartLineTo {
+  border: 2px solid #cdcdcd;
+  margin-left: 0.805vw;
+  width: 18.228vw;
+  margin-top: 1.042vw;
+  margin-right: 0;
+}
+.orderPaymentChange {
+  color: #cdcdcd;
+  width: 9.444vw;
+  height: 2.05vw;
+  font: normal normal normal 1.464vw/2.196vw Poppins;
+  margin-left: 0.805vw;
+}
+.myCartHeadline {
+  width: 21.376vw;
+  height: 6.808vw;
+  margin-left: 10.176vw;
+  margin-top: 2.855vw;
+  font: normal normal normal 5.124vw/4.88vw Acme;
+  background-image: linear-gradient(#f5004e, #8e0072);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+.myCartMainBox {
+  display: flex;
+  margin-top: 1.171vw;
+  margin-left: 10.176vw;
+  height: 35.139vw;
+  width: 80.307vw;
+}
+.CartBox {
+  width: 47.115vw;
+  height: 32.244vw;
+  display: grid;
+  grid-template-rows: 1.537vw 14.967vw 15.739vw;
+  margin-top: 1.191vw;
+}
+.referenceCodeBox {
+  width: 20.864vw;
+  height: 20.937vw;
+  margin-left: 12.329vw;
+
+  display: grid;
+  grid-template-rows:2.728vw 3.275vw 3.294vw 2.123vw 8.346vw;
+}
+.ReferenceCodeHeading {
+  width: 9.517vw;
+  height: 1.537vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #4d4d4d;
+  padding-top: 1.171vw;
+  margin-left: 1.025vw;
+}
+.RefCodeBoxWithButton {
+  width: 18.594vw;
+  margin-top: 0.493vw;
+  height: 2.782vw;
+  display: flex;
+  margin-left: 1.171vw;
+}
+.RefCodeInput {
+  width: 12.738vw;
+  height: 2.782vw;
+  border: 0.073vw solid #707070;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #8d8d8d;
+  padding-left: 0.732vw;
+}
+.RefCodeInput:focus {
+  outline: none;
+}
+.RefButton {
+  width: 5.857vw;
+  height: 2.782vw;
+  background: linear-gradient(#f5004e, #8e0072);
+  border: 0.073vw solid #8e0072;
+  color: white;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  cursor: pointer;
+}
+.RefButton:focus {
+  outline: none;
+}
+.DiscountBox {
+  width: 18.448vw;
+  height: 1.537vw;
+  margin-top: 1.757vw;
+  display: flex;
+  margin-left: 1.245vw;
+}
+.DiscountHeading {
+  width: 5.051vw;
+  height: 1.537vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  letter-spacing: 0;
+  color: #8d8d8d;
+}
+.discountMoney {
+  width: 7.394vw;
+  height: 1.537vw;
+  text-align: right;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #8d8d8d;
+  margin-left: 6.003vw;
+}
+.RefProceedButton {
+  cursor: pointer;
+  background: linear-gradient(#f5004e, #8e0072);
+  color: white;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  box-shadow: 0 0.220vw 0.439vw #00000029;
+  width: 15.300vw;
+  height: 3.587vw;
+  margin-top: 4.758vw;
+  margin-left: 2.928vw;
+  border: white;
+}
+.RefProceedButton:focus {
+  outline: none;
+}

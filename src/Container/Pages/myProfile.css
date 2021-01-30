@@ -1,0 +1,97 @@
+.profileBox2 {
+  margin-left: 22.474vw;
+  display: grid;
+  width: 67.35vw;
+  height: 38.067vw;
+  border: 0.073vw solid #707070;
+  grid-template-rows: 4.539vw 1.684vw 8.641vw 2.485vw 13.915vw;
+}
+.forline {
+  width: 62.958vw;
+  display: flex;
+}
+#line2 {
+  margin-left: 5.051vw;
+  margin-top: 1.611vw;
+  width: 7.906vw;
+  border: 0.073vw solid rgb(119, 118, 118);
+}
+#line3 {
+  margin-left: 0vw;
+  margin-top: 1.611vw;
+  width: 49.78vw;
+  border: 0.073vw solid rgb(196, 196, 196);
+}
+.allABoutMe {
+  margin-top: 1.459vw;
+  display: flex;
+  height: 6.742vw;
+  width: 62.958vw;
+}
+.aboutText {
+  width: 43.924vw;
+  margin-left: 6.808vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #8d8d8d;
+}
+#aboutEdit {
+  margin-left: 2.562vw;
+  border: 0.073vw solid #cdcdcd;
+  width: 12.299vw;
+  height: 3.514vw;
+  box-shadow: 0vw 0.22vw 0.439vw #00000029;
+  color: white;
+  cursor: pointer;
+  background-image: linear-gradient(#f5004e, #8e0072);
+  border: 0.073vw solid #cdcdcd;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+}
+#aboutEdit:focus {
+  outline: none;
+}
+#aboutEnd {
+  margin-left: 30.783vw;
+  width: 5.836vw;
+  margin-top: 2.411vw;
+  border: 0.073vw solid #cdcdcd;
+}
+.changePassword {
+  margin-left: 5.417vw;
+  margin-top: 2.671vw;
+  width: 54.755vw;
+  height: 11.382vw;
+}
+.changePassword h3 {
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #4d4d4d;
+}
+.passwordEdit {
+  height: 7.308vw;
+  width: 51.245vw;
+  margin-left: 1.391vw;
+  margin-top: 2.537vw;
+}
+.passwordEdit p {
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #6d6d6d;
+}
+.passwordEdit div {
+  display: flex;
+}
+#passwordEdit {
+  margin-top: 2.599vw;
+  margin-left: 22.694vw;
+  width: 12.299vw;
+  height: 3.514vw;
+  box-shadow: 0vw 0.22vw 0.439vw #00000029;
+  color: white;
+  cursor: pointer;
+  background-image: linear-gradient(#f5004e, #8e0072);
+  border: 0.073vw solid #cdcdcd;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  box-shadow: 0vw 0.22vw 0.439vw #00000029;
+}
+
+#passwordEdit:focus{
+    outline: none;
+}

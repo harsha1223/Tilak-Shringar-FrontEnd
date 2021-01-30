@@ -1,0 +1,109 @@
+.outerboxprivacy {
+  width: 68.375vw;
+  height: 1737px;
+  margin-top: 100px;
+  margin-left: 299px;
+  display: grid;
+  grid-template-rows: 63px 106px 67px 106px 67px 129px 67px 106px 67px 60px 67px 179px 67px 198px 67px 152px 67px 106px;
+}
+.privacyHeading {
+  width: 313px;
+  height: 63px;
+  background-image: linear-gradient(#f5004e, #8e0072);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  font: normal normal normal 45px/68px Acme;
+}
+.content1privacy {
+  width: 68.375vw;
+  height: 90px;
+  margin-top: 1.171vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #4d4d4d;
+}
+.consentHeading {
+  width: 163px;
+  height: 35px;
+  font: normal normal normal 1.830vw/2.782vw Poppins;
+  margin-top: 2.343vw;
+  color: #4d4d4d;
+}
+.cmHeading {
+  width: 392px;
+  height: 35px;
+  font: normal normal normal 21.830vw5px/2.782vw Poppins;
+  color: #4d4d4d;
+  margin-top: 2.343vw;
+}
+.content2privacy {
+  margin-top: 1.171vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #4d4d4d;
+  width: 68.375vw;
+  height: 113px;
+}
+.cookiesHeading {
+  width: 95px;
+  height: 35px;
+  font: normal normal normal 1.830vw/2.782vw Poppins;
+  color: #4d4d4d;
+  margin-top: 32px;
+}
+.protectingHeading {
+  width: 298px;
+  height: 35px;
+  font: normal normal normal 1.830vw/2.782vw Poppins;
+  color: #4d4d4d;
+  margin-top: 32px;
+}
+.content3privacy {
+  margin-top: 1.171vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #4d4d4d;
+  width: 68.375vw;
+  height: 44px;
+}
+.disclosureHeading {
+  font: normal normal normal 1.830vw/2.782vw Poppins;
+  color: #4d4d4d;
+  margin-top: 2.343vw;
+  width: 386px;
+  height: 35px;
+}
+.content4privacy {
+  margin-top: 1.171vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #4d4d4d;
+  width: 68.375vw;
+  height: 159px;
+}
+.usageHeading {
+  font: normal normal normal 1.830vw/2.782vw Poppins;
+  color: #4d4d4d;
+  margin-top: 2.343vw;
+  width: 496px;
+  height: 35px;
+}
+.content5privacy {
+  width: 68.375vw;
+  height: 13.324;
+  margin-top: 1.171vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #4d4d4d;
+}
+.thirdHeading {
+  font: normal normal normal 1.830vw/2.782vw Poppins;
+  color: #4d4d4d;
+  margin-top: 2.343vw;
+  width: 14.788vw;
+  height: 2.562vw;
+}
+.content6privacy {
+  margin-top: 1.171vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #4d4d4d;
+  width: 68.375vw;
+  height: 9.956vw;
+}
